@@ -1506,7 +1506,7 @@
     (property "Value" "Conn_02x40_Counter_Clockwise" (at 144.78 15.24 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x40_P1.27mm_Vertical" (at 143.51 67.31 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x40_P2.54mm_Vertical" (at 143.51 67.31 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Datasheet" "~" (at 143.51 67.31 0)
