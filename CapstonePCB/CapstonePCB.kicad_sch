@@ -5615,6 +5615,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -6025,10 +6150,28 @@
 		(uuid "98ee5ccb-39d9-45cc-a105-e9746f7b241b")
 	)
 	(junction
+		(at 39.37 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1872993-a1ee-4998-84bf-8b37df885d97")
+	)
+	(junction
+		(at 39.37 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b832c57a-30cd-4935-9ed0-908902e190ec")
+	)
+	(junction
 		(at 191.77 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c13d0ae6-9eac-49dd-a56c-f7a81c4d310f")
+	)
+	(junction
+		(at 52.07 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1329bf4-5066-4565-9741-d6b9877a234f")
 	)
 	(junction
 		(at 200.66 76.2)
@@ -6141,6 +6284,16 @@
 			(type default)
 		)
 		(uuid "1d9f5d05-71ad-4656-a491-18ee8d773bed")
+	)
+	(wire
+		(pts
+			(xy 31.75 25.4) (xy 39.37 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e5111be-02a4-4fb3-9b6d-997d167fa15b")
 	)
 	(wire
 		(pts
@@ -6264,13 +6417,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 21.59) (xy 31.75 21.59)
+			(xy 52.07 20.32) (xy 67.31 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "447e066c-0a7b-4664-a41e-3b750b1a03eb")
+		(uuid "4557d33c-8c3e-4cee-823e-226c0467260d")
 	)
 	(wire
 		(pts
@@ -6414,6 +6567,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 25.4) (xy 52.07 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "788759ad-e5d9-47e2-a7bc-3c842cc16b9b")
+	)
+	(wire
+		(pts
 			(xy 201.93 83.82) (xy 201.93 93.98)
 		)
 		(stroke
@@ -6531,6 +6694,16 @@
 			(type default)
 		)
 		(uuid "99a9f50c-0597-4fdc-b96c-c52668e259b9")
+	)
+	(wire
+		(pts
+			(xy 31.75 20.32) (xy 39.37 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c03f53c-98ce-4825-98da-9e7a738c1d1e")
 	)
 	(wire
 		(pts
@@ -6654,16 +6827,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 24.13) (xy 36.83 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4b89724-2b5e-420d-96d4-1eb98de2a51d")
-	)
-	(wire
-		(pts
 			(xy 147.32 54.61) (xy 147.32 57.15)
 		)
 		(stroke
@@ -6721,6 +6884,16 @@
 			(type default)
 		)
 		(uuid "d4f1c92e-5ab2-47bf-ac17-7c405330ba24")
+	)
+	(wire
+		(pts
+			(xy 39.37 26.67) (xy 39.37 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d96feb10-0294-4685-b92a-b7cfa32b2b83")
 	)
 	(wire
 		(pts
@@ -6811,6 +6984,16 @@
 			(type default)
 		)
 		(uuid "fcb503e6-1ed7-453d-8227-76b10af0ef3e")
+	)
+	(wire
+		(pts
+			(xy 39.37 20.32) (xy 52.07 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fccc6ca4-57a9-4a21-bd36-1b1e70425e39")
 	)
 	(wire
 		(pts
@@ -7743,7 +7926,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 36.83 24.13 0)
+		(at 39.37 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7752,7 +7935,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f93bab5-6d95-4472-9979-3f8d07d46395")
 		(property "Reference" "#PWR01"
-			(at 36.83 30.48 0)
+			(at 39.37 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7761,7 +7944,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 36.83 29.21 0)
+			(at 39.37 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7769,7 +7952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 24.13 0)
+			(at 39.37 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7778,7 +7961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 24.13 0)
+			(at 39.37 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7787,7 +7970,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 24.13 0)
+			(at 39.37 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8656,6 +8839,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 67.31 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b870e991-023b-4314-8c73-fcb46fb5d759")
+		(property "Reference" "#PWR014"
+			(at 67.31 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 67.31 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 67.31 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ec85718-e561-45c7-8d9a-72920e503379")
+		)
+		(instances
+			(project ""
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x40_Counter_Clockwise")
 		(at 139.7 67.31 0)
 		(unit 1)
@@ -9258,6 +9507,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 52.07 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4cc4caf-8a2b-4678-bfd5-0215ef6b6c28")
+		(property "Reference" "C_STBY3"
+			(at 54.61 21.5962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47 uf"
+			(at 54.61 24.1362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm"
+			(at 52.07 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 52.07 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc72164a-ae0b-48c5-8081-ef6e785aef75")
+		)
+		(pin "1"
+			(uuid "4586f938-c731-4acb-98ac-806e6a9635e1")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "C_STBY3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 184.15 69.85 0)
 		(unit 1)
@@ -9323,33 +9642,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Barrel_Jack")
-		(at 24.13 19.05 0)
+		(lib_id "Device:C_Small")
+		(at 39.37 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ef04df34-a9ba-4e5c-9522-3966ee1554d2")
-		(property "Reference" "J2"
-			(at 24.13 10.16 0)
+		(uuid "eb5db56a-3438-4356-aad0-2151de0ba68f")
+		(property "Reference" "C_STBY2"
+			(at 41.91 21.5962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Barrel_Jack"
-			(at 24.13 12.7 0)
+		(property "Value" "0.1 uf"
+			(at 41.91 24.1362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
-			(at 25.4 20.066 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 39.37 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9358,7 +9679,75 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 20.066 0)
+			(at 39.37 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 39.37 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3e64aa6-23b2-46fb-9d8e-075b6e65877c")
+		)
+		(pin "1"
+			(uuid "fc5bba51-5f60-4387-a67b-a57fbd6562ed")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "C_STBY2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Barrel_Jack")
+		(at 24.13 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef04df34-a9ba-4e5c-9522-3966ee1554d2")
+		(property "Reference" "J2"
+			(at 24.13 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack"
+			(at 24.13 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
+			(at 25.4 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9367,7 +9756,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 19.05 0)
+			(at 24.13 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
