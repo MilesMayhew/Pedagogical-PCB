@@ -1,0 +1,196 @@
+(footprint "7SegmentLED_LTD-4708JR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "7-Segment Display, LTS67x0, http://optoelectronics.liteon.com/upload/download/DS30-2001-355/S6760jd.pdf")
+	(tags "7Segment LED LTS6760 LTS6780")
+	(property "Reference" "REF**"
+		(at -1.51 5.72 90)
+		(layer "F.SilkS")
+		(uuid "d56c0b0d-7f69-496a-bc18-2d3f9694402f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "7SegmentLED_LTD-4708JR"
+		(at 10.15 15.06 180)
+		(layer "F.Fab")
+		(uuid "c5af540e-500c-4d1f-b89f-80b99ed31dd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 2.54 12.7 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "550b00f7-fd88-4aad-ae33-2504592b64a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 2.54 12.7 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc78f2c3-8a51-403c-93a3-5d3900c0ceb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 2.54 12.7 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a96768c0-7212-45fd-a11a-d8aa387bd4ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -0.08 -0.6)
+		(end 19.91 13.48)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "38990649-2f76-411e-bfc9-7b4c8702529f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.62 4.83 90)
+		(layer "F.Fab")
+		(uuid "e8e1acd8-cc92-490d-8864-35a9e9fb5cfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 4.59 11.52)
+		(size 1.524 2.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b6f9fc4c-2af1-44a9-8b4d-db1d64a7b28d")
+	)
+	(pad "2" thru_hole oval
+		(at 7.13 11.52)
+		(size 1.524 2.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a0ff62c7-009e-45bb-a21e-d3bd663cd642")
+	)
+	(pad "3" thru_hole oval
+		(at 9.67 11.52)
+		(size 1.524 2.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e0faf7cd-17d5-4ee1-80d2-a4da4db049d9")
+	)
+	(pad "4" thru_hole oval
+		(at 12.21 11.52)
+		(size 1.524 2.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fd9c2d8b-699a-40bd-8418-b9e6f14c70dc")
+	)
+	(pad "5" thru_hole oval
+		(at 14.75 11.52)
+		(size 1.524 2.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9fd2ac6d-0cb8-4be5-a2d9-e471538a963f")
+	)
+	(pad "6" thru_hole oval
+		(at 14.9 1.37)
+		(size 1.524 2.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4abff659-47e4-4e6c-9e00-bcf564066630")
+	)
+	(pad "7" thru_hole oval
+		(at 12.36 1.36)
+		(size 1.524 2.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "edf00e01-d9ca-4c25-89db-f5f45d1b7a53")
+	)
+	(pad "8" thru_hole oval
+		(at 9.82 1.37)
+		(size 1.524 2.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a19048e5-1d87-42bf-8ace-0479f458683f")
+	)
+	(pad "9" thru_hole oval
+		(at 7.28 1.37)
+		(size 1.524 2.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f64b56c3-af9f-4fcc-acad-7b72b11ff84b")
+	)
+	(pad "10" thru_hole oval
+		(at 4.74 1.37)
+		(size 1.524 2.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "14579b15-d1c3-4be0-b8fc-d0102da211b7")
+	)
+	(group ""
+		(uuid "4fc3f1ed-7953-451e-83ec-dd25cbd0ec38")
+		(members "08d20ec9-2c13-454e-af5f-36b5ea632d5f" "38990649-2f76-411e-bfc9-7b4c8702529f")
+	)
+	(group ""
+		(uuid "08d20ec9-2c13-454e-af5f-36b5ea632d5f")
+		(members "14579b15-d1c3-4be0-b8fc-d0102da211b7" "4abff659-47e4-4e6c-9e00-bcf564066630"
+			"9fd2ac6d-0cb8-4be5-a2d9-e471538a963f" "a0ff62c7-009e-45bb-a21e-d3bd663cd642"
+			"a19048e5-1d87-42bf-8ace-0479f458683f" "b6f9fc4c-2af1-44a9-8b4d-db1d64a7b28d"
+			"e0faf7cd-17d5-4ee1-80d2-a4da4db049d9" "edf00e01-d9ca-4c25-89db-f5f45d1b7a53"
+			"f64b56c3-af9f-4fcc-acad-7b72b11ff84b" "fd9c2d8b-699a-40bd-8418-b9e6f14c70dc"
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Display_7Segment.3dshapes/7SegmentLED_LTS6760_LTS6780.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

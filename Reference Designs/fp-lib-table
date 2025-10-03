@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Motor_Project_Edited_Footprints")(type "KiCad")(uri "${KIPRJMOD}/Motor_Project_Edited_Footprints.pretty")(options "")(descr ""))
+)
