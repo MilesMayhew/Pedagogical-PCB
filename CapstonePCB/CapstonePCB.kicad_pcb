@@ -6105,7 +6105,7 @@
 	(footprint "Schmitt:DIP794W45P254L1969H508Q14"
 		(layer "F.Cu")
 		(uuid "aa7903af-d412-4922-bc63-170b056f5adb")
-		(at 186.53 99.06)
+		(at 194.15 99.06)
 		(property "Reference" "U4"
 			(at -0.825 -11.135 0)
 			(layer "F.SilkS")
