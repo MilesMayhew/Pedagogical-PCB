@@ -8144,16 +8144,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 115.57) (xy 152.4 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04d54387-aa9f-4e92-a96d-0a2efb14b4d1")
-	)
-	(wire
-		(pts
 			(xy 80.01 20.32) (xy 88.9 20.32)
 		)
 		(stroke
@@ -8181,16 +8171,6 @@
 			(type default)
 		)
 		(uuid "103fcbbc-a3a0-442b-966a-a41977ac1000")
-	)
-	(wire
-		(pts
-			(xy 160.02 120.65) (xy 151.13 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10b028b4-d73b-44cb-a924-0fceaa82b47d")
 	)
 	(wire
 		(pts
@@ -8234,7 +8214,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 115.57) (xy 193.04 118.11)
+			(xy 193.04 80.01) (xy 193.04 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8341,16 +8321,6 @@
 			(type default)
 		)
 		(uuid "236df315-dd52-44e9-90ac-0aba7d770d8f")
-	)
-	(wire
-		(pts
-			(xy 153.67 110.49) (xy 153.67 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "257ee822-2ff0-48cd-873b-d333cc33e14b")
 	)
 	(wire
 		(pts
@@ -8494,7 +8464,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 80.01) (xy 147.32 80.01)
+			(xy 147.32 80.01) (xy 160.02 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8514,7 +8484,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 85.09) (xy 147.32 85.09)
+			(xy 147.32 85.09) (xy 160.02 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8531,6 +8501,16 @@
 			(type default)
 		)
 		(uuid "4852973b-2a40-474d-a575-979238930029")
+	)
+	(wire
+		(pts
+			(xy 326.39 78.74) (xy 326.39 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48859499-35dc-47b8-b1ff-92ec24b853c6")
 	)
 	(wire
 		(pts
@@ -8664,23 +8644,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 110.49) (xy 172.72 110.49)
+			(xy 167.64 74.93) (xy 172.72 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6962baf9-fed7-47c3-85a6-5b1babe61936")
-	)
-	(wire
-		(pts
-			(xy 151.13 120.65) (xy 151.13 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70dd817b-c33a-4a89-8bee-23a2a492ddc4")
 	)
 	(wire
 		(pts
@@ -8754,16 +8724,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 110.49) (xy 160.02 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "860808ee-d371-4782-8345-a4e64729c4d9")
-	)
-	(wire
-		(pts
 			(xy 104.14 20.32) (xy 107.95 20.32)
 		)
 		(stroke
@@ -8824,17 +8784,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 115.57) (xy 152.4 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bfe4ad8-d347-4f01-bf1e-7034d38f47ba")
-	)
-	(wire
-		(pts
-			(xy 167.64 120.65) (xy 172.72 120.65)
+			(xy 167.64 85.09) (xy 172.72 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8884,7 +8834,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 74.93) (xy 147.32 74.93)
+			(xy 147.32 74.93) (xy 160.02 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8921,16 +8871,6 @@
 			(type default)
 		)
 		(uuid "a500bdcf-abde-4a56-bd15-8832f0794450")
-	)
-	(wire
-		(pts
-			(xy 326.39 78.74) (xy 326.39 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a611b3d6-579f-4075-b760-1527f42bad7c")
 	)
 	(wire
 		(pts
@@ -8984,7 +8924,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 115.57) (xy 193.04 115.57)
+			(xy 182.88 80.01) (xy 193.04 80.01)
 		)
 		(stroke
 			(width 0)
@@ -9184,7 +9124,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 115.57) (xy 172.72 115.57)
+			(xy 167.64 80.01) (xy 172.72 80.01)
 		)
 		(stroke
 			(width 0)
@@ -9709,7 +9649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 391.16 29.21 0)
 			(effects
 				(font
@@ -9998,7 +9938,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 163.83 115.57 90)
+		(at 163.83 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10006,7 +9946,7 @@
 		(dnp no)
 		(uuid "1903dec9-c33b-41d2-918b-ec643b2022f0")
 		(property "Reference" "R_COFF3"
-			(at 162.306 113.538 0)
+			(at 162.306 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10015,7 +9955,7 @@
 			)
 		)
 		(property "Value" "100Ohm"
-			(at 166.37 113.538 0)
+			(at 166.37 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10024,7 +9964,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 163.83 117.348 90)
+			(at 163.83 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10033,7 +9973,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 115.57 0)
+			(at 163.83 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10042,7 +9982,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 163.83 115.57 0)
+			(at 163.83 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10092,7 +10032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 316.992 46.99 90)
 			(effects
 				(font
@@ -10161,7 +10101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 326.39 85.09 0)
 			(effects
 				(font
@@ -10270,7 +10210,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 163.83 110.49 90)
+		(at 163.83 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10278,7 +10218,7 @@
 		(dnp no)
 		(uuid "279f2a01-9b34-4a34-b90c-e9b3dc6e313f")
 		(property "Reference" "R_COFF2"
-			(at 162.306 108.458 0)
+			(at 162.306 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10287,7 +10227,7 @@
 			)
 		)
 		(property "Value" "100Ohm"
-			(at 166.37 108.458 0)
+			(at 166.37 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10296,7 +10236,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 163.83 112.268 90)
+			(at 163.83 76.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10305,7 +10245,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 110.49 0)
+			(at 163.83 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10314,7 +10254,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 163.83 110.49 0)
+			(at 163.83 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10364,7 +10304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 318.77 60.96 0)
 			(effects
 				(font
@@ -10539,7 +10479,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 193.04 118.11 0)
+		(at 193.04 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10548,7 +10488,7 @@
 		(fields_autoplaced yes)
 		(uuid "36238499-978a-4f77-be0d-3fb0185654b3")
 		(property "Reference" "#PWR023"
-			(at 193.04 124.46 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10557,7 +10497,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 193.04 123.19 0)
+			(at 193.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10565,7 +10505,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 118.11 0)
+			(at 193.04 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10574,7 +10514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 118.11 0)
+			(at 193.04 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10583,7 +10523,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 118.11 0)
+			(at 193.04 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10695,7 +10635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 334.772 74.93 90)
 			(effects
 				(font
@@ -11098,7 +11038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 365.252 60.96 90)
 			(effects
 				(font
@@ -11240,7 +11180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 301.752 48.26 90)
 			(effects
 				(font
@@ -11379,7 +11319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 324.612 74.93 90)
 			(effects
 				(font
@@ -11818,7 +11758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 369.57 29.21 0)
 			(effects
 				(font
@@ -12018,7 +11958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 303.53 58.42 0)
 			(effects
 				(font
@@ -12826,7 +12766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 369.062 48.26 90)
 			(effects
 				(font
@@ -13238,7 +13178,7 @@
 	)
 	(symbol
 		(lib_id "LED:ASMB-MTB1-0A3A2")
-		(at 177.8 115.57 0)
+		(at 177.8 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13247,7 +13187,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7ef3c4f-a5f0-4f9a-9d87-4cb51d725a7d")
 		(property "Reference" "D1"
-			(at 177.8 100.33 0)
+			(at 177.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13255,7 +13195,7 @@
 			)
 		)
 		(property "Value" "ASMB-MTB1-0A3A2"
-			(at 177.8 102.87 0)
+			(at 177.8 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13263,7 +13203,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
-			(at 177.8 100.33 0)
+			(at 177.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13272,7 +13212,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-4194EN"
-			(at 177.8 127 0)
+			(at 177.8 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13281,7 +13221,7 @@
 			)
 		)
 		(property "Description" "Tricolor Black Surface LED, Common Anode Pin 4, PLCC-4"
-			(at 177.8 115.57 0)
+			(at 177.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13643,7 +13583,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 163.83 120.65 90)
+		(at 163.83 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13651,7 +13591,7 @@
 		(dnp no)
 		(uuid "eedce627-822f-492a-96d6-cb69378ffe1d")
 		(property "Reference" "R_COFF4"
-			(at 162.306 118.618 0)
+			(at 162.306 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13660,7 +13600,7 @@
 			)
 		)
 		(property "Value" "100Ohm"
-			(at 166.37 118.618 0)
+			(at 166.37 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13669,7 +13609,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 163.83 122.428 90)
+			(at 163.83 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13678,7 +13618,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 120.65 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13687,7 +13627,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 163.83 120.65 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
