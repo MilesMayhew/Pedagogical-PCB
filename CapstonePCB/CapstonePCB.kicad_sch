@@ -3971,6 +3971,404 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LED:ASMB-MTB1-0A3A2"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ASMB-MTB1-0A3A2"
+				(at 1.27 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://docs.broadcom.com/docs/AV02-4194EN"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tricolor Black Surface LED, Common Anode Pin 4, PLCC-4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "led rgb diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Avago*PLCC4*3.2x2.8mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ASMB-MTB1-0A3A2_0_0"
+				(text "R"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "B"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "ASMB-MTB1-0A3A2_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -8.89)
+					(end -2.54 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ASMB-MTB1-0A3A2_1_1"
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "RK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Module:NUCLEO64-F411RE"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7238,10 +7636,22 @@
 		(uuid "0997029e-de6f-43a1-aeec-da03e87af262")
 	)
 	(junction
+		(at 147.32 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c12e7be-98a1-4aa9-935e-2d7691016882")
+	)
+	(junction
 		(at 107.95 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18d35477-1800-4e3c-a13f-f18fa148c6c7")
+	)
+	(junction
+		(at 147.32 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2938e3fd-957b-4ae9-8e1b-062278066197")
 	)
 	(junction
 		(at 234.95 30.48)
@@ -7290,6 +7700,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c13d0ae6-9eac-49dd-a56c-f7a81c4d310f")
+	)
+	(junction
+		(at 147.32 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0857508-1ad2-4df7-9b84-78d20e5a1c36")
 	)
 	(junction
 		(at 52.07 20.32)
@@ -7341,6 +7757,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 106.68) (xy 152.4 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d54387-aa9f-4e92-a96d-0a2efb14b4d1")
+	)
+	(wire
+		(pts
 			(xy 80.01 20.32) (xy 88.9 20.32)
 		)
 		(stroke
@@ -7371,6 +7797,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 111.76) (xy 151.13 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b028b4-d73b-44cb-a924-0fceaa82b47d")
+	)
+	(wire
+		(pts
 			(xy 134.62 85.09) (xy 134.62 87.63)
 		)
 		(stroke
@@ -7398,6 +7834,16 @@
 			(type default)
 		)
 		(uuid "176f5619-0c8b-45c6-998e-e7e4d030d288")
+	)
+	(wire
+		(pts
+			(xy 193.04 106.68) (xy 193.04 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "197b7e8c-b0ae-4929-9ace-b704e2d1c958")
 	)
 	(wire
 		(pts
@@ -7478,6 +7924,16 @@
 			(type default)
 		)
 		(uuid "236df315-dd52-44e9-90ac-0aba7d770d8f")
+	)
+	(wire
+		(pts
+			(xy 153.67 101.6) (xy 153.67 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "257ee822-2ff0-48cd-873b-d333cc33e14b")
 	)
 	(wire
 		(pts
@@ -7591,6 +8047,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 80.01) (xy 147.32 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "457a0940-9ab4-40be-b6a9-ba368ddd23e2")
+	)
+	(wire
+		(pts
 			(xy 236.22 57.15) (xy 236.22 58.42)
 		)
 		(stroke
@@ -7598,6 +8064,16 @@
 			(type default)
 		)
 		(uuid "473fffd7-35a5-4af9-a0bb-dc29da961d64")
+	)
+	(wire
+		(pts
+			(xy 151.13 85.09) (xy 147.32 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475397ed-8a8d-40af-adc7-ce576f86451d")
 	)
 	(wire
 		(pts
@@ -7741,6 +8217,26 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 101.6) (xy 172.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6962baf9-fed7-47c3-85a6-5b1babe61936")
+	)
+	(wire
+		(pts
+			(xy 151.13 111.76) (xy 151.13 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70dd817b-c33a-4a89-8bee-23a2a492ddc4")
+	)
+	(wire
+		(pts
 			(xy 147.32 95.25) (xy 147.32 97.79)
 		)
 		(stroke
@@ -7811,6 +8307,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 101.6) (xy 160.02 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860808ee-d371-4782-8345-a4e64729c4d9")
+	)
+	(wire
+		(pts
 			(xy 104.14 20.32) (xy 107.95 20.32)
 		)
 		(stroke
@@ -7861,6 +8367,26 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 106.68) (xy 152.4 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bfe4ad8-d347-4f01-bf1e-7034d38f47ba")
+	)
+	(wire
+		(pts
+			(xy 167.64 111.76) (xy 172.72 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c915f4b-3021-4210-a8fc-a97523c765ca")
+	)
+	(wire
+		(pts
 			(xy 134.62 115.57) (xy 134.62 118.11)
 		)
 		(stroke
@@ -7888,6 +8414,16 @@
 			(type default)
 		)
 		(uuid "99a9f50c-0597-4fdc-b96c-c52668e259b9")
+	)
+	(wire
+		(pts
+			(xy 153.67 74.93) (xy 147.32 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a902993-4c5c-430a-aeae-89c3833b0a26")
 	)
 	(wire
 		(pts
@@ -7968,6 +8504,16 @@
 			(type default)
 		)
 		(uuid "b1085669-cb4c-4db8-b3c1-d0ad311adac5")
+	)
+	(wire
+		(pts
+			(xy 182.88 106.68) (xy 193.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1916fbc-121b-4947-9769-d050f6fca307")
 	)
 	(wire
 		(pts
@@ -8148,6 +8694,16 @@
 			(type default)
 		)
 		(uuid "e31f21c9-0fd8-4479-a8b8-eebbd1667b17")
+	)
+	(wire
+		(pts
+			(xy 167.64 106.68) (xy 172.72 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f4b7aa-c122-4c5c-a1b5-218052aea4cf")
 	)
 	(wire
 		(pts
@@ -8718,6 +9274,75 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 163.83 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1903dec9-c33b-41d2-918b-ec643b2022f0")
+		(property "Reference" "R_COFF3"
+			(at 162.306 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100Ohm"
+			(at 166.37 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 163.83 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1aba6de8-d043-42b4-9b71-c958f9472eac")
+		)
+		(pin "1"
+			(uuid "82f9e2ed-cf0b-4e04-85f1-b32dbc6a1309")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "R_COFF3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 184.15 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8920,6 +9545,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 163.83 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "279f2a01-9b34-4a34-b90c-e9b3dc6e313f")
+		(property "Reference" "R_COFF2"
+			(at 162.306 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100Ohm"
+			(at 166.37 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 163.83 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b83bf4e0-ae7e-400a-bfa1-2931b07b0b6e")
+		)
+		(pin "1"
+			(uuid "827a484e-2edb-4846-a704-3b5e25967d2a")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "R_COFF2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 184.15 66.04 0)
 		(unit 1)
@@ -9114,6 +9808,71 @@
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 193.04 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36238499-978a-4f77-be0d-3fb0185654b3")
+		(property "Reference" "#PWR023"
+			(at 193.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 193.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f67fbe7f-fe17-4524-904f-9da650ef182a")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11688,6 +12447,80 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:ASMB-MTB1-0A3A2")
+		(at 177.8 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7ef3c4f-a5f0-4f9a-9d87-4cb51d725a7d")
+		(property "Reference" "D1"
+			(at 177.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ASMB-MTB1-0A3A2"
+			(at 177.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+			(at 177.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-4194EN"
+			(at 177.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tricolor Black Surface LED, Common Anode Pin 4, PLCC-4"
+			(at 177.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03f519aa-5859-48d4-a420-0be6af303803")
+		)
+		(pin "3"
+			(uuid "788b374b-7919-45df-8864-c5f5c266f70b")
+		)
+		(pin "1"
+			(uuid "4e002853-177f-4378-8ff7-8c56beae8379")
+		)
+		(pin "4"
+			(uuid "3508028a-c3be-4008-b00d-1c541a207269")
+		)
+		(instances
+			(project ""
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 196.85 162.56 0)
 		(unit 1)
@@ -11948,6 +12781,75 @@
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
 					(reference "C_STBY2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eedce627-822f-492a-96d6-cb69378ffe1d")
+		(property "Reference" "R_COFF4"
+			(at 162.306 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100Ohm"
+			(at 166.37 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 163.83 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c61168e-2cd5-433c-a68d-225949c027be")
+		)
+		(pin "1"
+			(uuid "ccecb217-b58f-423e-8715-4f594005c0c7")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "R_COFF4")
 					(unit 1)
 				)
 			)
