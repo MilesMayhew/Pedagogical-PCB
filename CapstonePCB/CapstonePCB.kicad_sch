@@ -15379,7 +15379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa58d7e6-09da-4188-93c5-3a4391e18f98")
-		(property "Reference" "PullUpResistorJS"
+		(property "Reference" "PullUpResistorJS1"
 			(at 217.17 63.4999 0)
 			(effects
 				(font
@@ -15433,7 +15433,7 @@
 		(instances
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "PullUpResistorJS")
+					(reference "PullUpResistorJS1")
 					(unit 1)
 				)
 			)
@@ -15448,7 +15448,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abef9e02-6ff5-48ea-b429-e517bb68b30b")
-		(property "Reference" "RJS"
+		(property "Reference" "RJS1"
 			(at 228.6 69.088 90)
 			(effects
 				(font
@@ -15500,7 +15500,7 @@
 		(instances
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "RJS")
+					(reference "RJS1")
 					(unit 1)
 				)
 			)
@@ -17252,7 +17252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee9b63cb-7903-4b7c-a900-0af95b6ca57c")
-		(property "Reference" "CJS"
+		(property "Reference" "CJS1"
 			(at 237.49 77.4699 0)
 			(effects
 				(font
@@ -17306,7 +17306,7 @@
 		(instances
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "CJS")
+					(reference "CJS1")
 					(unit 1)
 				)
 			)
