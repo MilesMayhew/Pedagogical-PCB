@@ -11316,7 +11316,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d8cfbee-7d5f-45db-adb1-0e38b6bae523")
-		(property "Reference" "R2"
+		(property "Reference" "RSW3"
 			(at 194.31 55.118 90)
 			(effects
 				(font
@@ -11368,7 +11368,7 @@
 		(instances
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "R2")
+					(reference "RSW3")
 					(unit 1)
 				)
 			)
@@ -13268,7 +13268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4276c060-4c83-416f-b200-58664bf78921")
-		(property "Reference" "PullUpResistor1"
+		(property "Reference" "PullUpResistorSW1"
 			(at 181.61 30.4799 0)
 			(effects
 				(font
@@ -13277,7 +13277,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 kOhm"
+		(property "Value" "10kOhm"
 			(at 181.61 33.0199 0)
 			(effects
 				(font
@@ -13322,7 +13322,7 @@
 		(instances
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "PullUpResistor1")
+					(reference "PullUpResistorSW1")
 					(unit 1)
 				)
 			)
@@ -13593,7 +13593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4782199e-ae8d-4433-811d-7a47afd0a1e0")
-		(property "Reference" "C2"
+		(property "Reference" "CSW3"
 			(at 203.2 63.4999 0)
 			(effects
 				(font
@@ -13602,7 +13602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47 uF"
+		(property "Value" "0.47uF"
 			(at 203.2 66.0399 0)
 			(effects
 				(font
@@ -13647,7 +13647,7 @@
 		(instances
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "C2")
+					(reference "CSW3")
 					(unit 1)
 				)
 			)
@@ -14152,6 +14152,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
@@ -14272,7 +14273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "731e1893-2ea1-4aaa-9bb4-85746206a5c7")
-		(property "Reference" "C1"
+		(property "Reference" "CSW1"
 			(at 207.01 29.2099 0)
 			(effects
 				(font
@@ -14281,7 +14282,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47 uF"
+		(property "Value" "0.47uF"
 			(at 207.01 31.7499 0)
 			(effects
 				(font
@@ -14326,7 +14327,7 @@
 		(instances
 			(project ""
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "C1")
+					(reference "CSW1")
 					(unit 1)
 				)
 			)
@@ -15378,7 +15379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa58d7e6-09da-4188-93c5-3a4391e18f98")
-		(property "Reference" "PullUpResistor4"
+		(property "Reference" "PullUpResistorJS"
 			(at 217.17 63.4999 0)
 			(effects
 				(font
@@ -15432,7 +15433,7 @@
 		(instances
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "PullUpResistor4")
+					(reference "PullUpResistorJS")
 					(unit 1)
 				)
 			)
@@ -15447,7 +15448,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abef9e02-6ff5-48ea-b429-e517bb68b30b")
-		(property "Reference" "R3"
+		(property "Reference" "RJS"
 			(at 228.6 69.088 90)
 			(effects
 				(font
@@ -15499,7 +15500,7 @@
 		(instances
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "R3")
+					(reference "RJS")
 					(unit 1)
 				)
 			)
@@ -17111,7 +17112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e91b87da-2e50-4bd8-aca1-183dc092df85")
-		(property "Reference" "PullUpResistor3"
+		(property "Reference" "PullUpResistorSW3"
 			(at 182.88 49.5299 0)
 			(effects
 				(font
@@ -17120,7 +17121,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 kOhm"
+		(property "Value" "10kOhm"
 			(at 182.88 52.0699 0)
 			(effects
 				(font
@@ -17165,7 +17166,7 @@
 		(instances
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "PullUpResistor3")
+					(reference "PullUpResistorSW3")
 					(unit 1)
 				)
 			)
@@ -17251,7 +17252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee9b63cb-7903-4b7c-a900-0af95b6ca57c")
-		(property "Reference" "C3"
+		(property "Reference" "CJS"
 			(at 237.49 77.4699 0)
 			(effects
 				(font
@@ -17305,7 +17306,7 @@
 		(instances
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "C3")
+					(reference "CJS")
 					(unit 1)
 				)
 			)
@@ -17536,6 +17537,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
@@ -17589,7 +17591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa48b4e2-3792-4be5-bb5a-a01f35b66fed")
-		(property "Reference" "R1"
+		(property "Reference" "RSW1"
 			(at 193.04 33.528 90)
 			(effects
 				(font
@@ -17597,7 +17599,7 @@
 				)
 			)
 		)
-		(property "Value" "10 kOhm"
+		(property "Value" "10kOhm"
 			(at 193.294 35.814 90)
 			(effects
 				(font
@@ -17641,7 +17643,7 @@
 		(instances
 			(project ""
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "R1")
+					(reference "RSW1")
 					(unit 1)
 				)
 			)
