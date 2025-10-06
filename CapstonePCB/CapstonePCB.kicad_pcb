@@ -5495,7 +5495,7 @@
 		(at 27.94 27.94 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C_STBY2"
+		(property "Reference" "C_BP1"
 			(at 0 -1.68 90)
 			(layer "F.SilkS")
 			(uuid "8982a7a1-42f9-448f-9cb0-a5a06d15b865")
@@ -5694,7 +5694,7 @@
 		(at 33.02 22.78 90)
 		(descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=20mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 5.00mm diameter 10mm height 20mm Non-Polar Electrolytic Capacitor")
-		(property "Reference" "C_STBY3"
+		(property "Reference" "C_BP2"
 			(at 2.5 -6.25 90)
 			(layer "F.SilkS")
 			(uuid "9a07f412-4a60-439b-9e6a-d02c98872fa6")

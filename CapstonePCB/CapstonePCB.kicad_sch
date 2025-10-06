@@ -13523,7 +13523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "447903e7-a4fb-44c0-bc94-eeae4533cf06")
-		(property "Reference" "R_STBY2"
+		(property "Reference" "R_INDC"
 			(at 31.75 177.7999 0)
 			(effects
 				(font
@@ -13577,7 +13577,7 @@
 		(instances
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "R_STBY2")
+					(reference "R_INDC")
 					(unit 1)
 				)
 			)
@@ -16642,7 +16642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4cc4caf-8a2b-4678-bfd5-0215ef6b6c28")
-		(property "Reference" "C_STBY3"
+		(property "Reference" "C_BP2"
 			(at 54.61 21.5962 0)
 			(effects
 				(font
@@ -16696,7 +16696,7 @@
 		(instances
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "C_STBY3")
+					(reference "C_BP2")
 					(unit 1)
 				)
 			)
@@ -17182,7 +17182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb5db56a-3438-4356-aad0-2151de0ba68f")
-		(property "Reference" "C_STBY2"
+		(property "Reference" "C_BP1"
 			(at 41.91 21.5962 0)
 			(effects
 				(font
@@ -17236,7 +17236,7 @@
 		(instances
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "C_STBY2")
+					(reference "C_BP1")
 					(unit 1)
 				)
 			)
