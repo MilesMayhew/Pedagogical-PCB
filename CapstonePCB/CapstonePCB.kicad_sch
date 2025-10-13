@@ -2972,6 +2972,292 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BH1750FVI-TR:BH1750FVI-TR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.1737 13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "BH1750FVI-TR"
+				(at -9.922 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "BH1750FVI-TR:XDCR_BH1750FVI-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" "BH1750FVICT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BH1750FVI-TR/Rohm/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.75mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD-6 ROHM Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/BH1750FVI-TR/Rohm/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "ROHM Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "BH1750FVI-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Light to Digital Ambient Light Sensor Digital 3V 6-Pin WSOF T/R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Rohm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "BH1750FVI-TR_0_0"
+				(rectangle
+					(start -10.16 -12.7)
+					(end 10.16 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "DVI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "ADDR"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "COM-09032:COM-09032"
 			(pin_names
 				(offset 1.016)
@@ -9552,381 +9838,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Optical:APDS-9306"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "APDS-9306"
-				(at 3.81 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "OptoDevice:Broadcom_LGA-8_2x2mm_P0.53mm"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://docs.broadcom.com/docs/AV02-4755EN"
-				(at 19.05 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ambient Light Sensor, I2C interface, 1.7-3.6V, LGA-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "opto ambient light sensor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Broadcom*LGA*2x2mm*P0.53mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "APDS-9306_0_0"
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy -2.54 2.54) (xy 0.635 2.54) (xy 0.635 0) (xy -2.54 0) (xy -3.81 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "ADC"
-					(at -1.27 1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "APDS-9306_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "APDS-9306_1_0"
-				(polyline
-					(pts
-						(xy -5.08 -1.524) (xy -5.08 1.27) (xy -3.81 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "APDS-9306_1_1"
-				(polyline
-					(pts
-						(xy -6.223 -0.762) (xy -7.112 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.223 -0.762) (xy -6.731 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.223 -0.762) (xy -6.223 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.096 0.254) (xy -6.985 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.096 0.254) (xy -6.604 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.096 0.254) (xy -6.096 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.842 0.635) (xy -4.191 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.842 -1.016) (xy -4.191 -1.016) (xy -5.08 0.635) (xy -5.842 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.826 -1.524) (xy -5.334 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 5.08 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 -5.08 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "INT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -11536,12 +11447,6 @@
 		(uuid "0997029e-de6f-43a1-aeec-da03e87af262")
 	)
 	(junction
-		(at 35.56 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09a2e28a-958e-4f08-adba-7f003f6085fc")
-	)
-	(junction
 		(at 313.69 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11798,16 +11703,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fff533a4-dbf6-4f06-a21e-80a783005dad")
-	)
-	(wire
-		(pts
-			(xy 318.77 121.92) (xy 318.77 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00bdc0ad-b682-4915-b480-358ea68ad3a2")
 	)
 	(wire
 		(pts
@@ -12141,13 +12036,13 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 109.22) (xy 347.98 109.22)
+			(xy 330.2 127) (xy 342.9 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c3f50ec-df82-4c25-a831-94ca131e6188")
+		(uuid "1cf7ebab-610a-44c6-8127-cb57d61caf71")
 	)
 	(wire
 		(pts
@@ -12161,7 +12056,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 25.4) (xy 35.56 25.4)
+			(xy 31.75 25.4) (xy 39.37 25.4)
 		)
 		(stroke
 			(width 0)
@@ -12218,6 +12113,16 @@
 			(type default)
 		)
 		(uuid "236df315-dd52-44e9-90ac-0aba7d770d8f")
+	)
+	(wire
+		(pts
+			(xy 332.74 109.22) (xy 332.74 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c52538-bbdd-45d9-8f4f-789d0f7cad29")
 	)
 	(wire
 		(pts
@@ -12331,16 +12236,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 132.08) (xy 347.98 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "390eb067-aa6f-4230-aa39-62f460a144b8")
-	)
-	(wire
-		(pts
 			(xy 389.89 124.46) (xy 393.7 124.46)
 		)
 		(stroke
@@ -12351,7 +12246,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 114.3) (xy 313.69 114.3)
+			(xy 313.69 114.3) (xy 330.2 114.3)
 		)
 		(stroke
 			(width 0)
@@ -12388,6 +12283,16 @@
 			(type default)
 		)
 		(uuid "3f03b8df-f213-419c-bf27-f973619844b8")
+	)
+	(wire
+		(pts
+			(xy 339.09 119.38) (xy 342.9 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "402f06cc-5921-4e4e-8cb8-89cf19a91a29")
 	)
 	(wire
 		(pts
@@ -12971,16 +12876,6 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 132.08) (xy 347.98 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8949dc9a-6b70-41b2-adbb-82787adf8c77")
-	)
-	(wire
-		(pts
 			(xy 350.52 60.96) (xy 359.41 60.96)
 		)
 		(stroke
@@ -13048,6 +12943,16 @@
 			(type default)
 		)
 		(uuid "8f857d83-5320-4307-b3b2-d0ef71929047")
+	)
+	(wire
+		(pts
+			(xy 373.38 134.62) (xy 377.19 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "923b17ca-7c03-4ee8-9df3-a037568db445")
 	)
 	(wire
 		(pts
@@ -13201,16 +13106,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 119.38) (xy 322.58 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1f38825-e2e1-4ed3-8549-63ab5bb1109a")
-	)
-	(wire
-		(pts
 			(xy 427.99 87.63) (xy 427.99 31.75)
 		)
 		(stroke
@@ -13238,16 +13133,6 @@
 			(type default)
 		)
 		(uuid "a500bdcf-abde-4a56-bd15-8832f0794450")
-	)
-	(wire
-		(pts
-			(xy 35.56 25.4) (xy 39.37 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a516441f-937d-4da2-9f89-ba9f8a556767")
 	)
 	(wire
 		(pts
@@ -13378,6 +13263,16 @@
 			(type default)
 		)
 		(uuid "b62fd1fb-3181-4ab4-9bf8-9bfb626e480b")
+	)
+	(wire
+		(pts
+			(xy 373.38 114.3) (xy 377.19 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b754cd71-3411-49d5-aff0-a321fdfe5483")
 	)
 	(wire
 		(pts
@@ -13641,6 +13536,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 129.54) (xy 342.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7be9d7-0b1b-497b-aa19-33b26366b82a")
+	)
+	(wire
+		(pts
 			(xy 300.99 33.02) (xy 300.99 35.56)
 		)
 		(stroke
@@ -13648,16 +13553,6 @@
 			(type default)
 		)
 		(uuid "d1ced053-73a4-41ff-b4f0-6e50cba28447")
-	)
-	(wire
-		(pts
-			(xy 322.58 119.38) (xy 322.58 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1fc5b50-473e-479a-bffe-169bfc1a0163")
 	)
 	(wire
 		(pts
@@ -13718,6 +13613,16 @@
 			(type default)
 		)
 		(uuid "d4f1c92e-5ab2-47bf-ac17-7c405330ba24")
+	)
+	(wire
+		(pts
+			(xy 330.2 114.3) (xy 330.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59ce7d2-4682-48df-b807-c158eb087be0")
 	)
 	(wire
 		(pts
@@ -13941,6 +13846,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 124.46) (xy 342.9 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2d6b25-8172-4bf9-a673-348da07da7d9")
+	)
+	(wire
+		(pts
 			(xy 313.69 63.5) (xy 313.69 64.77)
 		)
 		(stroke
@@ -13971,7 +13886,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 109.22) (xy 313.69 109.22)
+			(xy 313.69 109.22) (xy 332.74 109.22)
 		)
 		(stroke
 			(width 0)
@@ -14028,16 +13943,6 @@
 			(type default)
 		)
 		(uuid "f557979c-eefd-4fd3-b0c8-f99c85fb9915")
-	)
-	(wire
-		(pts
-			(xy 347.98 109.22) (xy 347.98 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f64eb20a-2c91-4d6f-9277-70ea83f196e5")
 	)
 	(wire
 		(pts
@@ -14171,16 +14076,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 121.92) (xy 318.77 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fccdfede-0592-4f57-859e-06550dcd1679")
-	)
-	(wire
-		(pts
 			(xy 220.98 40.64) (xy 204.47 40.64)
 		)
 		(stroke
@@ -14295,35 +14190,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Optical:APDS-9306")
-		(at 350.52 119.38 180)
+		(lib_id "power:GNDREF")
+		(at 377.19 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "023fcf59-2d6b-45be-8e5b-dae6bf7f5791")
-		(property "Reference" "U8"
-			(at 359.41 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "APDS-9306"
-			(at 359.41 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "OptoDevice:Broadcom_LGA-8_2x2mm_P0.53mm"
-			(at 350.52 106.68 0)
+		(uuid "02d98795-7ddd-4685-b373-f9bc13e2696b")
+		(property "Reference" "#PWR051"
+			(at 377.19 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14331,78 +14207,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-4755EN"
-			(at 331.47 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ambient Light Sensor, I2C interface, 1.7-3.6V, LGA-8"
-			(at 350.52 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "7f2dd3ff-34b3-416c-ad9f-c00856814c13")
-		)
-		(pin "7"
-			(uuid "069240f0-2691-46ce-8106-420f4c4cbdb9")
-		)
-		(pin "3"
-			(uuid "a840023f-1b6a-42ae-ad4e-241cda006627")
-		)
-		(pin "4"
-			(uuid "8c5159cb-4fcf-47ae-b6fd-20fc34a611ac")
-		)
-		(pin "5"
-			(uuid "04d6952e-e42e-4f54-811f-ba8e0b90b43f")
-		)
-		(pin "2"
-			(uuid "14243130-ecf9-42ff-9076-b357a9f83c92")
-		)
-		(pin "8"
-			(uuid "26b7b669-9860-4f85-ba5c-7b8b4030a692")
-		)
-		(pin "1"
-			(uuid "93f1ede9-79a8-4e3c-a4a5-448f3497a8d7")
-		)
-		(instances
-			(project ""
-				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 351.79 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "027225ba-e15a-4b2e-bb30-85b1cd2f4ee7")
-		(property "Reference" "#PWR027"
-			(at 351.79 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 351.79 127 0)
+		(property "Value" "GNDREF"
+			(at 377.952 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14410,7 +14216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 132.08 0)
+			(at 377.19 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14419,7 +14225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 132.08 0)
+			(at 377.19 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14427,22 +14233,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 351.79 132.08 0)
+		(property "Description" ""
+			(at 377.19 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "467990b9-4d89-4bfc-ad3b-4381d925e70b")
+			(uuid "635a5c0d-aec8-4ac8-a75c-89b69d9a5dde")
 		)
 		(instances
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "#PWR027")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -15111,136 +14916,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 35.56 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "159f0965-ee29-4750-816b-42083ef0565e")
-		(property "Reference" "#FLG02"
-			(at 35.56 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 35.56 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 35.56 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9fb0199d-bf89-4a99-926b-3303916c2bb6")
-		)
-		(instances
-			(project "CapstonePCB"
-				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 351.79 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "17020988-795e-4483-94b2-2834829f24f8")
-		(property "Reference" "#PWR024"
-			(at 351.79 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 352.552 114.046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 351.79 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 351.79 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 351.79 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c8c9e0d-be3d-4710-9d18-06bc7d6275ce")
-		)
-		(instances
-			(project "CapstonePCB"
-				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Driver_Motor:STSPIN220")
 		(at 262.89 168.91 0)
 		(unit 1)
@@ -15688,6 +15363,70 @@
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 339.09 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2715ae1c-41ad-4809-8592-0e93d42872c4")
+		(property "Reference" "#PWR027"
+			(at 339.09 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 339.852 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b2f32c8-8f80-4cd3-86a6-a7d91329163c")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -17114,6 +16853,263 @@
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
 					(reference "PullUpResistorSW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 339.09 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42bd5bfe-628c-4835-80a4-7d7895919e80")
+		(property "Reference" "#PWR024"
+			(at 339.09 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 339.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 339.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9fe3767-ec95-4e9b-94b5-d14e06cd55c9")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BH1750FVI-TR:BH1750FVI-TR")
+		(at 358.14 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42ef92b1-5f7e-4a45-9c6c-e4ad3f34ae5e")
+		(property "Reference" "U10"
+			(at 358.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BH1750FVI-TR"
+			(at 358.14 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BH1750FVI-TR:XDCR_BH1750FVI-TR"
+			(at 358.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 358.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "BH1750FVICT-ND"
+			(at 358.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BH1750FVI-TR/Rohm/view-part/?ref=snap"
+			(at 358.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.75mm"
+			(at 358.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-6 ROHM Semiconductor"
+			(at 358.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BH1750FVI-TR/Rohm/view-part/?ref=eda"
+			(at 358.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 358.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 358.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "ROHM Semiconductor"
+			(at 358.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BH1750FVI-TR"
+			(at 358.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Light to Digital Ambient Light Sensor Digital 3V 6-Pin WSOF T/R"
+			(at 358.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Rohm"
+			(at 358.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a368aa8f-95fc-4316-a289-ec2d9c28142b")
+		)
+		(pin "1"
+			(uuid "02a3a331-23d0-49c2-9a98-58aa3708a484")
+		)
+		(pin "6"
+			(uuid "7533f648-d979-41ba-b360-7b37ecf7675d")
+		)
+		(pin "4"
+			(uuid "7f286279-f70f-4aca-acba-e59191b5af42")
+		)
+		(pin "5"
+			(uuid "5d7b1de5-775c-45ec-8dd2-8d5e0bf5373a")
+		)
+		(pin "2"
+			(uuid "ba840d24-23bd-404f-b127-be3e15552279")
+		)
+		(instances
+			(project ""
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -20058,6 +20054,72 @@
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 377.19 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2db843f-28aa-4821-b0f7-e86a649cb53c")
+		(property "Reference" "#PWR050"
+			(at 377.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 377.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 377.19 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57fc8234-90b2-4513-bed1-bb32b0cfe08d")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)

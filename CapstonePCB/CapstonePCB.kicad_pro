@@ -491,7 +491,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../Downloads/CapstonePCBdrill/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
