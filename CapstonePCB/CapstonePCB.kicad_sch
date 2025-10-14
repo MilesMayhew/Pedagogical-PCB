@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "39e7582f-7765-4fc9-b934-76d5b28d9065")
-	(paper "User" 470 297)
+	(paper "A4")
 	(lib_symbols
 		(symbol "512964594:512964594"
 			(pin_names
@@ -17068,7 +17068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38d0b521-6963-4ce5-92b7-1c42ccbf76da")
-		(property "Reference" "R_BUZ"
+		(property "Reference" "R_BUZ1"
 			(at 340.36 205.74 90)
 			(effects
 				(font
@@ -17120,7 +17120,7 @@
 		(instances
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "R_BUZ")
+					(reference "R_BUZ1")
 					(unit 1)
 				)
 			)
