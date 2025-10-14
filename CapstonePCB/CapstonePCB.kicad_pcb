@@ -15186,6 +15186,362 @@
 			)
 		)
 	)
+	(footprint "AL5809-20.step:SODFL3717X100N"
+		(layer "F.Cu")
+		(uuid "f0988dc1-834e-47aa-8e66-5b5b056029c9")
+		(at 222.25 160.02 180)
+		(property "Reference" "U9"
+			(at 0.765 -2.135 0)
+			(layer "F.SilkS")
+			(uuid "b5ecd53d-0b79-4fdd-a504-951cd0737fda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "AL5809-20QP1-7"
+			(at 6.48 2.135 0)
+			(layer "F.Fab")
+			(uuid "908139c4-be78-4cd9-a44a-5c7d4b037320")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8692535c-f2c1-4c60-8967-66f70357e3fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc864431-53c8-4dee-9a90-f06694c806d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Diodes Inc."
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bb2eeb9-c74c-489c-97fe-062a0e6ee73d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.0mm"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d296082-4c41-4465-ac7b-ace073e79b39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "POWERDI®123 Type B Diodes Inc."
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7ddc444-04b6-4f43-9474-54f4a61e8e34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0b0db7f-13c4-4b2a-9907-ef5de37293f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AL5809-20QP1-7/Diodes+Inc./view-part/?ref=eda"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b81447a4-398f-4fd1-9fe1-e009864715dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ce1b38f-8e4a-4b39-9623-39f49c4329d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "2 - 2"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e455e55-a3e6-4941-a672-48355314d906")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AL5809-20QP1-7/Diodes+Inc./view-part/?ref=snap"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fb7d6a5-f6b7-493b-9a44-caa3c77bc98d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "AL5809-20QP1-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d56f3c56-a124-410b-a971-263e2c010e60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "LED Driver IC 1 Output Linear - PWM Dimming 20mA PowerDI™ 123"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f292f2ee-c02e-4b86-b572-a2b765641515")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b8a0660-fee7-4e70-8820-bd2dd32e85d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Diodes Inc."
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a5ee779-cd39-4257-aebb-f37b9925ab6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/29076463-6bba-40fa-a8a6-c1d8a8b4a5f4")
+		(sheetname "/")
+		(sheetfile "CapstonePCB.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.73 0.89)
+			(end 0.73 0.89)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0bb86255-3994-4128-be9f-c3ba17fd8b37")
+		)
+		(fp_line
+			(start -0.73 -0.89)
+			(end 0.73 -0.89)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cd9b55ce-8542-4c1e-a204-583b955cab32")
+		)
+		(fp_circle
+			(center -2.8 0)
+			(end -2.7 0)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "02383f23-48da-4721-b9f0-4c28289c9146")
+		)
+		(fp_line
+			(start 2.41 1.14)
+			(end 2.41 -1.14)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7acf0e2c-a05a-4a0f-a65e-93b20cc48ad8")
+		)
+		(fp_line
+			(start 2.41 -1.14)
+			(end -2.41 -1.14)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b20f0c94-e934-47d9-ae6d-0379ab2898e1")
+		)
+		(fp_line
+			(start -2.41 1.14)
+			(end 2.41 1.14)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "adca00d8-1c47-496a-929f-b786c9da1f84")
+		)
+		(fp_line
+			(start -2.41 -1.14)
+			(end -2.41 1.14)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e7e686d5-acdc-47c3-b523-b1d3d571a12b")
+		)
+		(fp_line
+			(start 1.4 0.89)
+			(end 1.4 -0.89)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b132f6d6-e61d-4250-a796-40ab011639df")
+		)
+		(fp_line
+			(start 1.4 -0.89)
+			(end -1.4 -0.89)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b0387fa5-637b-43e0-b2f1-94b587b662c1")
+		)
+		(fp_line
+			(start -1.4 0.89)
+			(end 1.4 0.89)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7c4ccf3e-3b60-46c9-8f5b-61efbb413322")
+		)
+		(fp_line
+			(start -1.4 -0.89)
+			(end -1.4 0.89)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3d0772f0-5602-46f4-8de8-9a0abe98adfa")
+		)
+		(fp_circle
+			(center -2.8 0)
+			(end -2.7 0)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "312e8f8f-1359-45e0-ae30-33172ab497ac")
+		)
+		(pad "1" smd roundrect
+			(at -1.605 0 180)
+			(size 1.11 1.27)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net 168 "+12V")
+			(pinfunction "IN")
+			(pintype "input")
+			(solder_mask_margin 0.102)
+			(uuid "86db20c7-effb-4ae5-b301-50cf31563126")
+		)
+		(pad "2" smd roundrect
+			(at 1.605 0 180)
+			(size 1.11 1.27)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net 221 "Net-(U9-OUT)")
+			(pinfunction "OUT")
+			(pintype "output")
+			(solder_mask_margin 0.102)
+			(uuid "ddc4a985-ed73-4c9c-b7a1-b09f9bc0cb15")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "f15f3097-efdc-428c-915b-9f4b768402b4")
@@ -16770,12 +17126,28 @@
 		(uuid "17b0c802-19ce-49af-a3ba-829d51991b2b")
 	)
 	(segment
+		(start 275.789 26.869)
+		(end 275.789 108.086)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 168)
+		(uuid "336d654a-03d0-4cc5-9380-1eb528acf1c1")
+	)
+	(segment
 		(start 20.32 26.99)
 		(end 20.32 26.32)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 168)
 		(uuid "3898401c-83e8-464d-b8ef-2141354bd714")
+	)
+	(segment
+		(start 275.789 108.086)
+		(end 223.855 160.02)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 168)
+		(uuid "6f91770c-1f97-477a-864b-5f379df6ab52")
 	)
 	(segment
 		(start 22.86 29.53)
@@ -16792,6 +17164,14 @@
 		(layer "F.Cu")
 		(net 168)
 		(uuid "be32240b-0319-4c5c-968b-e5ba80f71830")
+	)
+	(segment
+		(start 274.32 25.4)
+		(end 275.789 26.869)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 168)
+		(uuid "dbba0800-9191-470b-957a-efc180d5f6c8")
 	)
 	(segment
 		(start 24.77 27.62)
@@ -17616,6 +17996,22 @@
 		(layer "F.Cu")
 		(net 183)
 		(uuid "f72b5f68-3662-4131-b401-6c0d680db401")
+	)
+	(segment
+		(start 220.645 160.02)
+		(end 217.9 157.275)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 221)
+		(uuid "70992a03-056b-4a5a-b22b-68f41438b8e5")
+	)
+	(segment
+		(start 217.9 157.275)
+		(end 217.9 152.4)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 221)
+		(uuid "b1c1f9f7-3ddc-46ec-aefa-503ecda98618")
 	)
 	(zone
 		(net 169)

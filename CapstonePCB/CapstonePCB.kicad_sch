@@ -15662,7 +15662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AL5809-20QP1-7:SODFL3717X100N"
+		(property "Footprint" "AL5809-20.step:SODFL3717X100N"
 			(at 406.4 124.46 0)
 			(effects
 				(font
