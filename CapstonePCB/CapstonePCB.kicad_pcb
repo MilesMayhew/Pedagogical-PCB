@@ -4047,7 +4047,7 @@
 		(uuid "5787948e-3fa9-48ef-94c2-b7c94b16992b")
 		(at 157.48 76.2 180)
 		(property "Reference" "U10"
-			(at 1.226565 -1.937485 0)
+			(at 0 2.54 0)
 			(layer "F.SilkS")
 			(uuid "809251c9-89de-47e6-9df6-58b3a8300f3d")
 			(effects
@@ -4058,7 +4058,7 @@
 			)
 		)
 		(property "Value" "BH1750FVI-TR"
-			(at -1.27 2.54 0)
+			(at -3.81 3.81 0)
 			(layer "F.Fab")
 			(uuid "e856087d-d5b3-4587-83bb-f76d1ae74669")
 			(effects
