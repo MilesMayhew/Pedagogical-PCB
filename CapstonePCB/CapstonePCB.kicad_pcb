@@ -316,7 +316,7 @@
 		(at 129.54 120.64 90)
 		(descr "BUZZER")
 		(property "Reference" "U8"
-			(at 6.485715 -5.595515 90)
+			(at -0.01 -7.62 180)
 			(layer "F.SilkS")
 			(uuid "0502311f-28f2-4765-900a-0a913d1b687e")
 			(effects
@@ -9760,7 +9760,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 3.75 6.7 0)
+			(at 10.87 0.98 0)
 			(layer "F.Fab")
 			(uuid "c15c25a3-c24b-4cc2-a4a0-2c5e8751ba8a")
 			(effects
@@ -15374,7 +15374,7 @@
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U6"
-			(at 0 -4.5 90)
+			(at 0.66 -4.84 180)
 			(layer "F.SilkS")
 			(uuid "3cc18eb8-8063-483a-905b-fa981d53250b")
 			(effects
