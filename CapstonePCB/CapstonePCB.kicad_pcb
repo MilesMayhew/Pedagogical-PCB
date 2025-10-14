@@ -6572,7 +6572,7 @@
 		(uuid "647ffd13-be19-4fc9-b701-6cd510ea9e92")
 		(at 209.4 154.48)
 		(property "Reference" "J3"
-			(at -0.1016 -5.334 0)
+			(at 0 5.54 0)
 			(layer "F.SilkS")
 			(uuid "77c85d38-1ca7-48ce-982f-b80e2879fc53")
 			(effects
