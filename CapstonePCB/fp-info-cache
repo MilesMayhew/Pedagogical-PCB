@@ -1,4 +1,11 @@
-26750560156158239
+26759362147790745
+AL5809-20.step
+SODFL3717X100N
+
+
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +20,13 @@ audio belton reverb
 0
 7
 7
+BH1750FVI-TR
+XDCR_BH1750FVI-TR
+
+
+0
+6
+6
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -58057,6 +58071,13 @@ muRata MEJ1S DCDC-Converter
 0
 4
 4
+CorrectlLCDconnector
+CON_512964594_MOL
+
+
+0
+47
+47
 Crystal
 Crystal_AT310_D3.0mm_L10.0mm_Horizontal
 AT310, Crystal, with length tolerance, length 10.5mm, width 3.0mm, THT, https://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf
@@ -69467,6 +69488,13 @@ solder jumper open
 0
 3
 3
+LCDconnector
+51296
+
+
+0
+56
+56
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -106487,6 +106515,13 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+WST-1205S.step
+WST-1205S
+BUZZER
+
 0
 2
 2
