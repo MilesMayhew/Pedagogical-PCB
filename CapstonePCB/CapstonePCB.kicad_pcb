@@ -16574,6 +16574,46 @@
 			)
 		)
 	)
+	(gr_line
+		(start 189.865 142.24)
+		(end 229.235 142.24)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "14e0943f-4f3a-41e0-8cef-3a262d231b01")
+	)
+	(gr_line
+		(start 189.865 142.24)
+		(end 189.865 91.44)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3f55adb4-2a37-4c50-a473-277ba5964177")
+	)
+	(gr_line
+		(start 189.865 91.44)
+		(end 229.235 91.44)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a3952f41-f1e7-43db-910a-a597b9f60e57")
+	)
+	(gr_line
+		(start 229.235 142.24)
+		(end 229.235 91.44)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b9224aff-6eb1-4aa6-842f-268024dbe7b3")
+	)
 	(gr_rect
 		(start 11.43 11.43)
 		(end 285.75 199.39)
@@ -16815,6 +16855,18 @@
 				(size 0.762 0.762)
 				(thickness 0.1524)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "LCD"
+		(at 207.01 91.44 0)
+		(layer "F.SilkS")
+		(uuid "9c96dcc5-df4b-4a05-b647-daba8b366ce0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
