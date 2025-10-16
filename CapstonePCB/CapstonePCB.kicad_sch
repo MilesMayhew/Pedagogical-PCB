@@ -14388,6 +14388,12 @@
 		(uuid "075d666a-71c7-4e9e-8799-6662ed4dbfb7")
 	)
 	(junction
+		(at 300.99 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b3d0e47-f916-4c79-aa38-17d88409ba4c")
+	)
+	(junction
 		(at 313.69 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14488,6 +14494,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5630515e-b35c-4991-ad4e-cde4e39d1c94")
+	)
+	(junction
+		(at 300.99 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d62e924-0b3a-484c-ac4e-ce9dbb5abddd")
 	)
 	(junction
 		(at 208.28 314.96)
@@ -14658,6 +14670,12 @@
 		(uuid "aac65a64-44fa-4275-8876-b35893a30940")
 	)
 	(junction
+		(at 300.99 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad57bf82-860f-47c4-9f5b-311280270ff6")
+	)
+	(junction
 		(at 39.37 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14722,6 +14740,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc375e17-2f64-4530-b203-5edc438949fe")
+	)
+	(junction
+		(at 300.99 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccd81f30-203f-4639-b94a-2844092384a9")
 	)
 	(junction
 		(at 313.69 99.06)
@@ -15874,6 +15898,16 @@
 			(type default)
 		)
 		(uuid "61314731-bc4e-4de7-a295-5562b70dd9f5")
+	)
+	(wire
+		(pts
+			(xy 300.99 71.12) (xy 300.99 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62cc9aaa-89c4-480e-ae83-f0eb0ac2bdd8")
 	)
 	(wire
 		(pts
@@ -17497,6 +17531,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 76.2) (xy 300.99 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24b28ca-07e7-44f5-b897-b8167fd1d496")
+	)
+	(wire
+		(pts
 			(xy 435.61 52.07) (xy 435.61 54.61)
 		)
 		(stroke
@@ -17504,6 +17548,16 @@
 			(type default)
 		)
 		(uuid "e2743a2d-dbbe-46ab-9abc-9d0966c8dc39")
+	)
+	(wire
+		(pts
+			(xy 289.56 76.2) (xy 300.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2fce30d-2e79-4f1d-8cc4-9c47147fad66")
 	)
 	(wire
 		(pts
@@ -20664,7 +20718,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 kOhm"
+		(property "Value" "10kR"
 			(at 381.0001 63.5 0)
 			(effects
 				(font
@@ -22079,7 +22133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 23.622 234.95 90)
 			(effects
 				(font
@@ -23855,6 +23909,71 @@
 			(project ""
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 289.56 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a93291f-58ba-44d1-abc9-40a65b4f573f")
+		(property "Reference" "#PWR010"
+			(at 289.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 289.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "853f2b02-2ce2-4946-9384-61b38d58a581")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
