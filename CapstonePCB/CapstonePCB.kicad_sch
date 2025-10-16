@@ -3258,6 +3258,324 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CMA-4544PF-W:CMA-4544PF-W"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MK"
+				(at -2.5409 3.8113 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CMA-4544PF-W"
+				(at -2.5411 -6.3527 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CMA-4544PF-W:MIC_CMA-4544PF-W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Same Sky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DESCRIPTION" "9.7 mm, Omnidirectional, PCB Mount, 3.0 Vdc, Electret Condenser Microphone"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "6-DIP-6 CUI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PRICE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CMA-4544PF-W/Same+Sky/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "CUI_PURCHASE_URL" "https://www.cui.com/product/audio/microphones/electret-condenser-microphones/cma-4544pf-w?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CMA-4544PF-W/Same+Sky/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "CMA-4544PF-W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "AVAILABILITY" "Unavailable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "9.7 mm, Omnidirectional, PCB Mount, 3.0 Vdc, Electret Condenser Microphone"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CMA-4544PF-W_0_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 2.2352 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 2.2352 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "COM-09032:COM-09032"
 			(pin_names
 				(offset 1.016)
@@ -7624,6 +7942,298 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MCP6002-I_P:MCP6002-I_P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 13.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MCP6002-I_P"
+				(at -12.7 -16.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MCP6002-I_P:DIP787W46P254L927H533Q8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Microchip"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Microchip ,Dual Op Amp,1MHz CMOS,Rail to Rail,3V,5V,8-Pin PDIP | Microchip Technology Inc. MCP6002-I/P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "DIP-8 Microchip"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MCP6002-I/P/Microchip+Technology/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MCP6002-I/P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MCP6002-I/P/Microchip+Technology/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MCP6002-I_P_0_0"
+				(rectangle
+					(start -12.7 -12.7)
+					(end 12.7 12.7)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "VINA+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "VINA-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "VINB+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "VINB-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "VOUTA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "VOUTB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Module:NUCLEO64-F411RE"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -11509,6 +12119,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -12104,10 +12839,22 @@
 		(uuid "4475c5c6-1b72-4839-979c-70a28bdc9f4d")
 	)
 	(junction
+		(at 547.37 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b384641-94b9-44dc-bf0e-3de5f3389fda")
+	)
+	(junction
 		(at 300.99 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d9fd793-43a9-4f03-b087-98dc0671480a")
+	)
+	(junction
+		(at 477.52 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ec291b6-cdf9-4fdd-a64f-9413cbe99e94")
 	)
 	(junction
 		(at 300.99 99.06)
@@ -12120,6 +12867,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "544a4190-bf3d-4d3f-99df-1bdceb1c12c9")
+	)
+	(junction
+		(at 441.96 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5630515e-b35c-4991-ad4e-cde4e39d1c94")
 	)
 	(junction
 		(at 435.61 52.07)
@@ -12146,6 +12899,12 @@
 		(uuid "71f6e81b-be16-4395-ad3a-64b8d30f618b")
 	)
 	(junction
+		(at 466.09 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71ff6ef3-54b3-4c68-bd52-8cd6129f5e67")
+	)
+	(junction
 		(at 203.2 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12162,6 +12921,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e88fb43-4061-43d0-bbeb-eef3f79542c3")
+	)
+	(junction
+		(at 441.96 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ec01a1c-5d96-4ae7-9651-1c98bf8f9257")
 	)
 	(junction
 		(at 435.61 77.47)
@@ -12332,6 +13097,12 @@
 		(uuid "d1329bf4-5066-4565-9741-d6b9877a234f")
 	)
 	(junction
+		(at 441.96 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1d35473-2756-46d2-9ee4-4e8241cf8072")
+	)
+	(junction
 		(at 250.19 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12354,6 +13125,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e75d51f9-977d-44f1-bee5-c5d3cd9d9a44")
+	)
+	(junction
+		(at 300.99 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb0af169-b68e-4e15-83b6-95bea2126587")
 	)
 	(junction
 		(at 435.61 59.69)
@@ -12399,6 +13176,16 @@
 	)
 	(wire
 		(pts
+			(xy 547.37 231.14) (xy 477.52 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00c48987-22fe-43c8-9c3f-343af59cb30d")
+	)
+	(wire
+		(pts
 			(xy 320.04 158.75) (xy 320.04 127)
 		)
 		(stroke
@@ -12436,6 +13223,16 @@
 			(type default)
 		)
 		(uuid "02f5c2ef-3481-472b-a40e-9523b5e2d4e4")
+	)
+	(wire
+		(pts
+			(xy 466.09 185.42) (xy 441.96 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03234ac3-ffa6-4fd9-892b-99f31e90b85e")
 	)
 	(wire
 		(pts
@@ -12489,6 +13286,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 195.58) (xy 441.96 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3f37cf-83dc-4fd5-845b-355189cd02f5")
+	)
+	(wire
+		(pts
 			(xy 336.55 35.56) (xy 424.18 35.56)
 		)
 		(stroke
@@ -12516,6 +13323,16 @@
 			(type default)
 		)
 		(uuid "0cc96435-d60b-4dcd-97bc-52ac1d3eeddf")
+	)
+	(wire
+		(pts
+			(xy 547.37 213.36) (xy 547.37 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d849cce-4fc8-41e9-bb27-24ac6139c097")
 	)
 	(wire
 		(pts
@@ -12779,6 +13596,16 @@
 	)
 	(wire
 		(pts
+			(xy 527.05 195.58) (xy 532.13 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dbba8d2-1f02-462c-9dee-33f42699d4ec")
+	)
+	(wire
+		(pts
 			(xy 31.75 25.4) (xy 39.37 25.4)
 		)
 		(stroke
@@ -12856,6 +13683,16 @@
 			(type default)
 		)
 		(uuid "2820c8f7-cbfe-4061-a3c1-edc850e1477e")
+	)
+	(wire
+		(pts
+			(xy 441.96 215.9) (xy 441.96 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "282c2823-9f22-46db-b99f-d5ddf9d37ba5")
 	)
 	(wire
 		(pts
@@ -13229,6 +14066,16 @@
 	)
 	(wire
 		(pts
+			(xy 527.05 200.66) (xy 547.37 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d0ab4ec-38a9-45bf-9f90-076d19e3fa59")
+	)
+	(wire
+		(pts
 			(xy 238.76 179.07) (xy 250.19 179.07)
 		)
 		(stroke
@@ -13236,6 +14083,16 @@
 			(type default)
 		)
 		(uuid "4d5da3d6-ef26-4cf1-8fc4-ac569a4017c9")
+	)
+	(wire
+		(pts
+			(xy 547.37 200.66) (xy 547.37 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6d45f8-54fa-41c9-b7a3-bd38f8b7b231")
 	)
 	(wire
 		(pts
@@ -13339,6 +14196,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 48.26) (xy 40.64 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f371f4-d3ad-4bf6-bb14-718d8f9deb43")
+	)
+	(wire
+		(pts
 			(xy 300.99 104.14) (xy 300.99 105.41)
 		)
 		(stroke
@@ -13439,6 +14306,16 @@
 	)
 	(wire
 		(pts
+			(xy 527.05 215.9) (xy 533.4 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a26d97e-7e6b-4cde-af50-03ce54578a5a")
+	)
+	(wire
+		(pts
 			(xy 386.08 60.96) (xy 389.89 60.96)
 		)
 		(stroke
@@ -13509,6 +14386,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 203.2) (xy 441.96 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749dac76-a6b1-4c73-8eeb-a26463de4fcf")
+	)
+	(wire
+		(pts
 			(xy 313.69 109.22) (xy 313.69 111.76)
 		)
 		(stroke
@@ -13516,6 +14403,26 @@
 			(type default)
 		)
 		(uuid "753ca433-486d-4041-b55b-c32480658002")
+	)
+	(wire
+		(pts
+			(xy 466.09 200.66) (xy 466.09 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e95648-150a-4556-87fc-10718182c6ab")
+	)
+	(wire
+		(pts
+			(xy 477.52 231.14) (xy 477.52 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772af33d-693a-4ece-b048-0ffe6174cdb3")
 	)
 	(wire
 		(pts
@@ -13629,6 +14536,16 @@
 	)
 	(wire
 		(pts
+			(xy 547.37 200.66) (xy 554.99 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8118debf-d326-4dd2-af40-3679321172c5")
+	)
+	(wire
+		(pts
 			(xy 300.99 63.5) (xy 300.99 66.04)
 		)
 		(stroke
@@ -13656,6 +14573,16 @@
 			(type default)
 		)
 		(uuid "83897455-66f2-423f-b3a6-780c65f32334")
+	)
+	(wire
+		(pts
+			(xy 532.13 186.69) (xy 532.13 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849ea873-03d3-41bd-981d-28450e4f5088")
 	)
 	(wire
 		(pts
@@ -13726,6 +14653,16 @@
 			(type default)
 		)
 		(uuid "887f4edc-dfec-4c5a-abbe-f36abb0eedbe")
+	)
+	(wire
+		(pts
+			(xy 466.09 195.58) (xy 466.09 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891002a3-2448-4b4e-a74f-407f48badd1e")
 	)
 	(wire
 		(pts
@@ -14039,6 +14976,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 218.44) (xy 441.96 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46d29c3-6d50-40cc-9101-fc14534e1c5f")
+	)
+	(wire
+		(pts
 			(xy 300.99 78.74) (xy 300.99 81.28)
 		)
 		(stroke
@@ -14126,6 +15073,16 @@
 			(type default)
 		)
 		(uuid "ada777f7-ef29-448d-b8e3-3093903c9181")
+	)
+	(wire
+		(pts
+			(xy 294.64 58.42) (xy 300.99 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae65e81d-d0e0-4aaf-9cdd-c3b10d62a468")
 	)
 	(wire
 		(pts
@@ -14259,6 +15216,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 48.26) (xy 40.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b952fe06-4b28-4b32-84bd-37d3122a8c63")
+	)
+	(wire
+		(pts
 			(xy 313.69 104.14) (xy 313.69 106.68)
 		)
 		(stroke
@@ -14279,6 +15246,16 @@
 	)
 	(wire
 		(pts
+			(xy 477.52 203.2) (xy 491.49 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcbe3b0f-41d4-4dc6-b591-be1c926888b9")
+	)
+	(wire
+		(pts
 			(xy 210.82 189.23) (xy 238.76 189.23)
 		)
 		(stroke
@@ -14286,6 +15263,16 @@
 			(type default)
 		)
 		(uuid "bcbf356e-986c-42b9-81f6-69aed77fe6d6")
+	)
+	(wire
+		(pts
+			(xy 441.96 203.2) (xy 452.12 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdbf994d-17d4-4465-86e3-fd7e6e5f4b31")
 	)
 	(wire
 		(pts
@@ -14359,6 +15346,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 203.2) (xy 431.8 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d7329e-2b75-47a1-8ef1-ef537e7f94c1")
+	)
+	(wire
+		(pts
 			(xy 328.93 31.75) (xy 427.99 31.75)
 		)
 		(stroke
@@ -14426,6 +15423,16 @@
 			(type default)
 		)
 		(uuid "c6ae27e6-bb53-4bcb-807b-f25bb2ef0000")
+	)
+	(wire
+		(pts
+			(xy 466.09 187.96) (xy 466.09 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c720fc0e-05e1-417b-a383-18c3ff97af64")
 	)
 	(wire
 		(pts
@@ -14569,6 +15576,16 @@
 	)
 	(wire
 		(pts
+			(xy 466.09 218.44) (xy 441.96 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d265ce2b-b817-464f-81b1-27a70a6583b5")
+	)
+	(wire
+		(pts
 			(xy 300.99 48.26) (xy 300.99 50.8)
 		)
 		(stroke
@@ -14629,6 +15646,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 33.02) (xy 261.62 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d555198e-cdb2-4bf6-acca-34db8472297c")
+	)
+	(wire
+		(pts
 			(xy 330.2 114.3) (xy 330.2 127)
 		)
 		(stroke
@@ -14646,6 +15673,16 @@
 			(type default)
 		)
 		(uuid "d73db054-3ab6-4dea-b56b-b3689c7db0c0")
+	)
+	(wire
+		(pts
+			(xy 441.96 184.15) (xy 441.96 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d80d455a-dff5-4fc0-b1c8-1eefc2a4dc76")
 	)
 	(wire
 		(pts
@@ -14676,6 +15713,16 @@
 			(type default)
 		)
 		(uuid "d9cd218d-2d62-4698-93f0-eab481bdf2da")
+	)
+	(wire
+		(pts
+			(xy 441.96 185.42) (xy 441.96 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db5e24fe-7834-463a-89e2-a58ae4292dd8")
 	)
 	(wire
 		(pts
@@ -14716,6 +15763,16 @@
 			(type default)
 		)
 		(uuid "df7a9034-5da9-4fd4-bcfe-338173bcade6")
+	)
+	(wire
+		(pts
+			(xy 431.8 208.28) (xy 431.8 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfbea1ff-4d51-4a66-8d15-6f568bafaf06")
 	)
 	(wire
 		(pts
@@ -14819,6 +15876,16 @@
 	)
 	(wire
 		(pts
+			(xy 431.8 218.44) (xy 441.96 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e513a419-2a6a-4f5f-b343-d0765d131747")
+	)
+	(wire
+		(pts
 			(xy 199.39 59.69) (xy 204.47 59.69)
 		)
 		(stroke
@@ -14909,6 +15976,16 @@
 	)
 	(wire
 		(pts
+			(xy 491.49 200.66) (xy 466.09 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9e1b4a-b2a9-4819-8ca0-9acb92c337cb")
+	)
+	(wire
+		(pts
 			(xy 161.29 63.5) (xy 180.34 63.5)
 		)
 		(stroke
@@ -14926,6 +16003,16 @@
 			(type default)
 		)
 		(uuid "efe992ce-febc-4980-8abd-d15d954848e8")
+	)
+	(wire
+		(pts
+			(xy 457.2 203.2) (xy 477.52 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f017de50-73f4-4cbc-8233-7698e7f1b3c1")
 	)
 	(wire
 		(pts
@@ -15109,6 +16196,16 @@
 	)
 	(wire
 		(pts
+			(xy 466.09 215.9) (xy 466.09 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f99b6154-e8b8-44d1-be0e-67ebb7a3078f")
+	)
+	(wire
+		(pts
 			(xy 250.19 181.61) (xy 250.19 189.23)
 		)
 		(stroke
@@ -15269,6 +16366,50 @@
 			)
 		)
 	)
+	(global_label "MicOut"
+		(shape input)
+		(at 294.64 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "058466f0-5e35-4a7d-b760-ee1185bcd65d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 285.3048 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MicOut"
+		(shape input)
+		(at 554.99 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57da57b8-68c4-4928-96c9-a39d23c6e654")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 564.3252 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BuzzerGPIO"
 		(shape input)
 		(at 334.01 212.09 180)
@@ -15288,6 +16429,72 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 532.13 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "005ca719-3321-421e-8f02-bf501f624e5f")
+		(property "Reference" "#PWR064"
+			(at 532.13 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 532.13 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 532.13 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 532.13 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 532.13 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b268231-dc35-498b-8234-2f4af26bbb2c")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "#PWR064")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -16018,6 +17225,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 466.09 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14657d09-95be-4400-bed9-7f4a852ecfb6")
+		(property "Reference" "R_SNSA6"
+			(at 468.63 210.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2kR"
+			(at 468.63 213.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 464.312 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 466.09 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 466.09 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7cdf9805-00f2-4926-a340-6f4703d2a9c6")
+		)
+		(pin "1"
+			(uuid "34291520-5fd9-4dd0-87d0-6a1ab4c006b3")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "R_SNSA6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 185.42 92.71 0)
 		(unit 1)
@@ -16077,6 +17354,71 @@
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 441.96 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "162cadfc-d683-4db5-a54c-cc834dd051eb")
+		(property "Reference" "#PWR060"
+			(at 441.96 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 441.96 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 441.96 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 441.96 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 441.96 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "852c162f-345d-4eaf-b8b2-aed973761131")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -16327,6 +17669,72 @@
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
 					(reference "R_COFF3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 261.62 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1caaa1dc-92a6-4185-a482-27fe7809c94c")
+		(property "Reference" "#PWR061"
+			(at 261.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 261.62 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 261.62 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba742978-a6c7-4f44-b05f-063bf256c855")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -17280,6 +18688,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 38.1 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30acbe57-e368-4ede-a1fe-56b2758ae3dd")
+		(property "Reference" "#PWR063"
+			(at 38.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 38.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 38.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4267aa7-998a-4e13-a436-e5db8841b66f")
+		)
+		(instances
+			(project ""
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 284.48 152.4 0)
 		(unit 1)
@@ -17339,6 +18813,205 @@
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMA-4544PF-W:CMA-4544PF-W")
+		(at 424.18 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "335b8c9e-53ce-48b4-91ed-5a013af86d22")
+		(property "Reference" "MK1"
+			(at 425.45 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CMA-4544PF-W"
+			(at 425.45 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CMA-4544PF-W:MIC_CMA-4544PF-W"
+			(at 424.18 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 424.18 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 424.18 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Same Sky"
+			(at 424.18 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "9.7 mm, Omnidirectional, PCB Mount, 3.0 Vdc, Electret Condenser Microphone"
+			(at 424.18 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "6-DIP-6 CUI"
+			(at 424.18 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 424.18 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 424.18 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CMA-4544PF-W/Same+Sky/view-part/?ref=eda"
+			(at 424.18 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CUI_PURCHASE_URL" "https://www.cui.com/product/audio/microphones/electret-condenser-microphones/cma-4544pf-w?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
+			(at 424.18 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CMA-4544PF-W/Same+Sky/view-part/?ref=snap"
+			(at 424.18 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CMA-4544PF-W"
+			(at 424.18 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 424.18 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 424.18 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 424.18 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "9.7 mm, Omnidirectional, PCB Mount, 3.0 Vdc, Electret Condenser Microphone"
+			(at 424.18 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ecb69f44-799e-4d14-8035-cf2f452d705b")
+		)
+		(pin "1"
+			(uuid "f976d527-e7f4-4654-994e-cdaf14067878")
+		)
+		(instances
+			(project ""
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "MK1")
 					(unit 1)
 				)
 			)
@@ -17539,6 +19212,76 @@
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 441.96 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36d68258-0d96-4a19-b8c0-3cd9904946d9")
+		(property "Reference" "R_SNSA2"
+			(at 444.5 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2kR"
+			(at 444.5 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 440.182 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 441.96 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 441.96 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a49dd23b-aef8-4ff0-bb9d-7f50adde7d39")
+		)
+		(pin "1"
+			(uuid "2c8a485a-40b2-4c4e-81d8-a5e5e22f44af")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "R_SNSA2")
 					(unit 1)
 				)
 			)
@@ -18808,6 +20551,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 441.96 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48200b61-ff62-49a0-827a-7940437009bb")
+		(property "Reference" "R_SNSA3"
+			(at 444.5 210.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2kR"
+			(at 444.5 213.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 440.182 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 441.96 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 441.96 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "26990805-0e3b-48bb-a733-a6a74e7107a8")
+		)
+		(pin "1"
+			(uuid "f4a0ac51-56e9-4ddd-96ac-5bbd93415582")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "R_SNSA3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "WST-1205S:WST-1205S")
 		(at 369.57 222.25 270)
 		(unit 1)
@@ -19692,6 +21505,76 @@
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 466.09 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "678a1256-41d1-4f17-8428-37b74665bc82")
+		(property "Reference" "R_SNSA5"
+			(at 468.63 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2kR"
+			(at 468.63 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 464.312 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 466.09 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 466.09 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb176187-cd8d-447b-ba07-f6fd061b11a3")
+		)
+		(pin "1"
+			(uuid "d236659a-bcf5-4f1c-a520-dfb678720fe1")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "R_SNSA5")
 					(unit 1)
 				)
 			)
@@ -20781,6 +22664,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 441.96 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "881e4374-761b-47d3-adce-9b080dcf4a25")
+		(property "Reference" "#PWR059"
+			(at 441.96 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 441.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 441.96 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 441.96 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 441.96 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "722605ce-80d6-4f1b-ba77-0d0509ecb901")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 306.07 152.4 0)
 		(unit 1)
@@ -21185,6 +23134,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 547.37 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d6b7748-f101-42c6-95b4-5662cb160b87")
+		(property "Reference" "R_SNSA4"
+			(at 549.91 208.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "70kR"
+			(at 549.91 210.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 545.592 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 547.37 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 547.37 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "189af443-e87f-42de-bd95-effc0d6322a6")
+		)
+		(pin "1"
+			(uuid "bcf1e81a-eda4-4a88-8689-84ef466d158d")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "R_SNSA4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 160.02 93.98 180)
 		(unit 1)
@@ -21450,6 +23469,173 @@
 		)
 	)
 	(symbol
+		(lib_id "MCP6002-I_P:MCP6002-I_P")
+		(at 509.27 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac319b76-4c1c-4bb7-afb4-6dc355b970b5")
+		(property "Reference" "U11"
+			(at 509.27 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6002-I_P"
+			(at 509.27 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCP6002.step:DIP787W46P254L927H533Q8"
+			(at 509.27 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 509.27 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 509.27 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Microchip"
+			(at 509.27 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Microchip ,Dual Op Amp,1MHz CMOS,Rail to Rail,3V,5V,8-Pin PDIP | Microchip Technology Inc. MCP6002-I/P"
+			(at 509.27 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "DIP-8 Microchip"
+			(at 509.27 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 509.27 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MCP6002-I/P/Microchip+Technology/view-part/?ref=snap"
+			(at 509.27 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MCP6002-I/P"
+			(at 509.27 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 509.27 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MCP6002-I/P/Microchip+Technology/view-part/?ref=eda"
+			(at 509.27 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "66584fc5-31c2-4cfc-b87f-8287d082ae5a")
+		)
+		(pin "1"
+			(uuid "56886f1d-a59f-41fe-b16e-a3262af29d24")
+		)
+		(pin "7"
+			(uuid "1aaa2e52-f5f4-4608-9aa9-39fc50c08851")
+		)
+		(pin "3"
+			(uuid "8ff47e22-54e4-423d-85ab-e7092e2480da")
+		)
+		(pin "8"
+			(uuid "4bab78c8-62cb-48b9-9dba-c5db0280a8bd")
+		)
+		(pin "4"
+			(uuid "49e67875-9c8b-4b1c-b758-4f57540eb9fc")
+		)
+		(pin "2"
+			(uuid "7417b607-3a22-4e11-b79f-91dfd2fb8a04")
+		)
+		(pin "5"
+			(uuid "35f2490f-8fbb-48a0-98b1-aa4cfa0ea737")
+		)
+		(instances
+			(project ""
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 175.26 92.71 0)
 		(unit 1)
@@ -21641,6 +23827,71 @@
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 533.4 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6f74d42-1833-44ca-9040-58897b9411e6")
+		(property "Reference" "#PWR062"
+			(at 533.4 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 533.4 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 533.4 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 533.4 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 533.4 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c249f061-6e5a-4560-871d-fce35c094677")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -23925,6 +26176,74 @@
 			(project ""
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 454.66 203.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7e8d3a9-4e4a-41d6-ae81-d3a3e0b5ae7e")
+		(property "Reference" "C_s2"
+			(at 454.6663 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 454.6663 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 454.66 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 454.66 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 454.66 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0467c794-d0fa-49a7-9b45-3fede38c7e23")
+		)
+		(pin "1"
+			(uuid "5e373362-d68f-4013-910b-2deb65486efa")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "C_s2")
 					(unit 1)
 				)
 			)
