@@ -1,4 +1,4 @@
-26759362147790745
+26764644056259856
 AL5809-20.step
 SODFL3717X100N
 
@@ -2824,6 +2824,13 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
+0
+2
+2
+CMA-4544PF-W.step
+MIC_CMA-4544PF-W
+
+
 0
 2
 2
@@ -70748,6 +70755,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MCP6002.step
+DIP787W46P254L927H533Q8
+
+
+0
+8
+8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -73597,6 +73611,13 @@ threaded screw
 0
 4
 1
+NUCLEO-G0B1RE.step
+MODULE_NUCLEO-G0B1RE
+
+
+0
+136
+136
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
