@@ -15705,6 +15705,12 @@
 		(uuid "38501ebd-ff5c-467b-977f-ebc1a505e4cb")
 	)
 	(junction
+		(at 106.68 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e9d349c-03f6-4003-9b1d-916814377504")
+	)
+	(junction
 		(at 233.68 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15841,6 +15847,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ec01a1c-5d96-4ae7-9651-1c98bf8f9257")
+	)
+	(junction
+		(at 82.55 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ec8735f-c9f9-41cd-a3b4-9dda66960e4f")
 	)
 	(junction
 		(at 245.11 191.77)
@@ -16051,6 +16063,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7117d43-0381-4352-a4ed-f2d62aa5d253")
+	)
+	(junction
+		(at 96.52 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df042035-d6d7-46b3-8df9-3d7297e1bfb4")
 	)
 	(junction
 		(at 300.99 40.64)
@@ -16334,7 +16352,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 44.45) (xy 88.9 44.45)
+			(xy 80.01 44.45) (xy 82.55 44.45)
 		)
 		(stroke
 			(width 0)
@@ -16434,6 +16452,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 44.45) (xy 106.68 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b3c9f6-96e7-43b7-806e-5b9e4635001f")
+	)
+	(wire
+		(pts
 			(xy 300.99 99.06) (xy 300.99 101.6)
 		)
 		(stroke
@@ -16464,7 +16492,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 44.45) (xy 110.49 44.45)
+			(xy 104.14 44.45) (xy 106.68 44.45)
 		)
 		(stroke
 			(width 0)
@@ -17204,6 +17232,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 44.45) (xy 88.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583b01c5-62b0-477b-9da9-6075420ee9d5")
+	)
+	(wire
+		(pts
 			(xy 300.99 104.14) (xy 300.99 106.68)
 		)
 		(stroke
@@ -17271,6 +17309,16 @@
 			(type default)
 		)
 		(uuid "61314731-bc4e-4de7-a295-5562b70dd9f5")
+	)
+	(wire
+		(pts
+			(xy 106.68 44.45) (xy 110.49 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c2e238-7551-403f-b453-dc68f861f01b")
 	)
 	(wire
 		(pts
@@ -17491,6 +17539,16 @@
 			(type default)
 		)
 		(uuid "772af33d-693a-4ece-b048-0ffe6174cdb3")
+	)
+	(wire
+		(pts
+			(xy 82.55 44.45) (xy 82.55 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775e9e14-3429-412d-8338-210416203f8d")
 	)
 	(wire
 		(pts
@@ -18044,6 +18102,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 53.34) (xy 96.52 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a02fe1c9-b2ed-4de9-be2e-963d04c87f22")
+	)
+	(wire
+		(pts
 			(xy 300.99 83.82) (xy 300.99 86.36)
 		)
 		(stroke
@@ -18231,6 +18299,16 @@
 			(type default)
 		)
 		(uuid "af70f2a8-33de-441f-b00f-96d756415cd7")
+	)
+	(wire
+		(pts
+			(xy 96.52 53.34) (xy 106.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b059bc3a-3878-4146-9cf9-1ea3fdd51acb")
 	)
 	(wire
 		(pts
@@ -18431,6 +18509,16 @@
 			(type default)
 		)
 		(uuid "bd09db4c-43f2-4f74-97e0-0837692b2fa6")
+	)
+	(wire
+		(pts
+			(xy 96.52 53.34) (xy 96.52 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda1fbdf-985f-4999-b220-cdc1787fa7e5")
 	)
 	(wire
 		(pts
@@ -18924,7 +19012,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 52.07) (xy 96.52 54.61)
+			(xy 96.52 52.07) (xy 96.52 53.34)
 		)
 		(stroke
 			(width 0)
@@ -25096,7 +25184,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 96.52 54.61 0)
+		(at 96.52 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25105,7 +25193,7 @@
 		(fields_autoplaced yes)
 		(uuid "746d4c7e-6946-4619-a6f6-884982050fac")
 		(property "Reference" "#PWR022"
-			(at 96.52 60.96 0)
+			(at 96.52 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25114,7 +25202,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 96.52 59.69 0)
+			(at 96.52 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25122,7 +25210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 54.61 0)
+			(at 96.52 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25131,7 +25219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 54.61 0)
+			(at 96.52 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25140,7 +25228,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 54.61 0)
+			(at 96.52 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28697,6 +28785,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 106.68 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba5e8b58-a6e4-4139-8f2b-a8c0226bf6f6")
+		(property "Reference" "C_BP4"
+			(at 109.22 49.5362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 uf"
+			(at 109.22 52.0762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+			(at 106.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 106.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ac6cb12-63e5-4639-bf66-7a0062f40b13")
+		)
+		(pin "1"
+			(uuid "d6319f5a-5e14-415c-8e37-f1e5101a2414")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "C_BP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 389.89 124.46 0)
 		(unit 1)
@@ -30373,6 +30531,76 @@
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 82.55 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7f05dc7-1962-4e6c-a54d-dfebe196412f")
+		(property "Reference" "C_BP3"
+			(at 85.09 49.5362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 uf"
+			(at 85.09 52.0762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99f439df-ca9c-40f7-afe5-4758043bb213")
+		)
+		(pin "1"
+			(uuid "89297ae3-32c2-4ede-97a3-ab0704ef2bf9")
+		)
+		(instances
+			(project "CapstonePCB"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "C_BP3")
 					(unit 1)
 				)
 			)
