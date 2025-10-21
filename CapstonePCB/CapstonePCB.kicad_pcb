@@ -19171,6 +19171,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "MSLP"
+		(at 118.652912 42.5 0)
+		(layer "F.SilkS")
+		(uuid "1f86574a-f718-4986-ac2d-c9413255a84d")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SCL"
 		(at 118.652912 108.076971 0)
 		(layer "F.SilkS")
