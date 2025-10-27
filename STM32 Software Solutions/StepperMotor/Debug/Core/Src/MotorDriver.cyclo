@@ -1,0 +1,4 @@
+../Core/Src/MotorDriver.c:13:6:MotorDriver_Init	1
+../Core/Src/MotorDriver.c:29:6:MotorDriver_SetPWMDutyCycle	2
+../Core/Src/MotorDriver.c:36:6:MotorDriver_SetDirection	3
+../Core/Src/MotorDriver.c:58:6:MotorDriver_GeneratePWMOutput	7

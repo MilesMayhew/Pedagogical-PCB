@@ -1,0 +1,4 @@
+../Core/Src/MotorDriver.c:13:6:MotorDriver_Init	32	static
+../Core/Src/MotorDriver.c:29:6:MotorDriver_SetPWMDutyCycle	16	static
+../Core/Src/MotorDriver.c:36:6:MotorDriver_SetDirection	16	static
+../Core/Src/MotorDriver.c:58:6:MotorDriver_GeneratePWMOutput	24	static
