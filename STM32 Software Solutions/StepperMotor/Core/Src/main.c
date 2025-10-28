@@ -94,8 +94,8 @@ int main(void)
   // Assume TIM_HandleTypeDef and GPIO configuration done
   MotorDriver_Init(&motorDriver, &htim3, TIM_CHANNEL_1, GPIOA, GPIO_PIN_5, GPIOD, GPIO_PIN_6);
 
-  // Set PWM duty cycle to 50%
-  MotorDriver_SetPWMDutyCycle(&motorDriver, 10);
+  // Set PWM duty cycle
+  MotorDriver_SetPWMDutyCycle(&motorDriver, 50);
   MotorDriver_SetDirection(&motorDriver, MOTOR_FORWARD);
 
   // Set direction to use pin1 (1 for true) or pin2 (0 for false)
@@ -171,7 +171,7 @@ static void MX_TIM3_Init(void)
 
   /* USER CODE END TIM3_Init 1 */
   htim3.Instance = TIM3;
-  htim3.Init.Prescaler = 63;
+  htim3.Init.Prescaler = 15;
   htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
   htim3.Init.Period = 999;
   htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
@@ -185,7 +185,7 @@ static void MX_TIM3_Init(void)
   {
     Error_Handler();
   }
-  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_UPDATE;
   sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
   if (HAL_TIMEx_MasterConfigSynchronization(&htim3, &sMasterConfig) != HAL_OK)
   {
@@ -238,9 +238,11 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-void HandleMotorPWM(void) {
-    // Call the PWM generation function here
-    MotorDriver_GeneratePWMOutput(&motorDriver); // Update PWM output based on the motor state
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
+	if(htim->Instance == TIM3){
+		MotorDriver_GeneratePWMOutput(&motorDriver);
+	}
+
 }
 /* USER CODE END 4 */
 

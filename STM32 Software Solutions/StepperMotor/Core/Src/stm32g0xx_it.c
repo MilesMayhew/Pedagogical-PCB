@@ -154,8 +154,7 @@ void TIM3_IRQHandler(void)
   {
       __HAL_TIM_CLEAR_FLAG(&htim3, TIM_FLAG_UPDATE); // Clear the interrupt flag
 
-      // Call the helper function to handle PWM
-      HandleMotorPWM();
+
   }
   /* USER CODE END TIM3_IRQn 1 */
 }

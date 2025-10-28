@@ -1,6 +1,6 @@
 #include <MotorDriver.h>  // Include header for GPIO, TIM configurations, etc.
 
-#define PWM_FREQUENCY     1000  // Set your desired PWM frequency in Hz
+#define PWM_FREQUENCY     10  // Set your desired PWM frequency in Hz
 #define PWM_PERIOD_MS     (1000 / PWM_FREQUENCY)
 
 static uint32_t currentDutyCycle = 0; // Variable to store the current duty cycle
@@ -57,22 +57,27 @@ void MotorDriver_SetDirection(MotorDriver* driver, MotorDirection direction) {
 // Generate PWM signal in software
 void MotorDriver_GeneratePWMOutput(MotorDriver* driver) {
     if (currentDirection == MOTOR_STOP) {
-        // Ensure both pins are low
         HAL_GPIO_WritePin(driver->pin1Port, driver->pin1, GPIO_PIN_RESET);
         HAL_GPIO_WritePin(driver->pin2Port, driver->pin2, GPIO_PIN_RESET);
-        return; // Skip PWM generation if stopped
+        return;
     }
 
-    // Update the elapsed time (this should be in ms)
     elapsedTime++;
 
     uint32_t highTime = (currentDutyCycle * PWM_PERIOD_MS) / 100;
-    uint32_t lowTime = PWM_PERIOD_MS - highTime;
+    uint32_t lowTime  = PWM_PERIOD_MS - highTime;
 
-    // Determine the state of the output based on elapsed time and PWM state
     if (pwmState == 0) {
-        // Time to turn the output high
+        // Currently HIGH
         if (elapsedTime >= highTime) {
+            HAL_GPIO_WritePin(driver->pin1Port, driver->pin1, GPIO_PIN_RESET);
+            HAL_GPIO_WritePin(driver->pin2Port, driver->pin2, GPIO_PIN_RESET);
+            pwmState = 1;
+            elapsedTime = 0;
+        }
+    } else {
+        // Currently LOW
+        if (elapsedTime >= lowTime) {
             if (currentDirection == MOTOR_FORWARD) {
                 HAL_GPIO_WritePin(driver->pin1Port, driver->pin1, GPIO_PIN_SET);
                 HAL_GPIO_WritePin(driver->pin2Port, driver->pin2, GPIO_PIN_RESET);
@@ -80,16 +85,8 @@ void MotorDriver_GeneratePWMOutput(MotorDriver* driver) {
                 HAL_GPIO_WritePin(driver->pin1Port, driver->pin1, GPIO_PIN_RESET);
                 HAL_GPIO_WritePin(driver->pin2Port, driver->pin2, GPIO_PIN_SET);
             }
-            pwmState = 1;  // Set state to high
-            elapsedTime = 0; // Reset elapsed time
-        }
-    } else {
-        // Time to turn the output low
-        if (elapsedTime >= lowTime) {
-            HAL_GPIO_WritePin(driver->pin1Port, driver->pin1, GPIO_PIN_RESET);
-            HAL_GPIO_WritePin(driver->pin2Port, driver->pin2, GPIO_PIN_RESET);
-            pwmState = 0;  // Set state to low
-            elapsedTime = 0; // Reset elapsed time
+            pwmState = 0;
+            elapsedTime = 0;
         }
     }
 }
