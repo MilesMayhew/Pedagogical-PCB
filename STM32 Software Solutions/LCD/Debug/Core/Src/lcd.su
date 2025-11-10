@@ -1,0 +1,11 @@
+../Core/Src/lcd.c:5:6:LCD_Init	32	static
+../Core/Src/lcd.c:88:6:LCD_SendCommand	16	static
+../Core/Src/lcd.c:102:6:LCD_SendData	16	static
+../Core/Src/lcd.c:114:6:LCD_TurnOff	16	static
+../Core/Src/lcd.c:118:6:SPI_SendData	32	static
+../Core/Src/lcd.c:121:13:LCD_SetAddressWindow	48	static
+../Core/Src/lcd.c:141:6:SPISendByte	24	static
+../Core/Src/lcd.c:147:9:SPIReceiveByte	32	static
+../Core/Src/lcd.c:152:6:LCD_FillScreen	560	static
+../Core/Src/lcd.c:180:6:LCD_DrawPixel	56	static
+../Core/Src/lcd.c:191:6:LCD_FillScreen_Fast	40	static
