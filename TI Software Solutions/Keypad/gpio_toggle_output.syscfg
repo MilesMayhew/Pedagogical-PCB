@@ -1,0 +1,60 @@
+/**
+ * These arguments were used when this file was generated. They will be automatically applied on subsequent loads
+ * via the GUI or CLI. Run CLI with '--help' for additional information on how to override these arguments.
+ * @cliArgs --device "MSPM0G350X" --part "Default" --package "LQFP-64(PM)" --product "mspm0_sdk@2.07.00.06"
+ * @v2CliArgs --device "MSPM0G3507" --package "LQFP-64(PM)" --product "mspm0_sdk@2.07.00.06"
+ * @versions {"tool":"1.25.0+4268"}
+ */
+
+/**
+ * Import the modules used in this configuration.
+ */
+const GPIO   = scripting.addModule("/ti/driverlib/GPIO", {}, false);
+const GPIO1  = GPIO.addInstance();
+const SYSCTL = scripting.addModule("/ti/driverlib/SYSCTL");
+
+/**
+ * Write custom configuration values to the imported modules.
+ */
+GPIO1.port                          = "PORTB";
+GPIO1.$name                         = "GPIO_KEYPAD";
+GPIO1.associatedPins.create(7);
+GPIO1.associatedPins[0].$name       = "KEYPAD_ROW0";
+GPIO1.associatedPins[0].direction   = "INPUT";
+GPIO1.associatedPins[0].assignedPin = "21";
+GPIO1.associatedPins[1].$name       = "KEYPAD_ROW1";
+GPIO1.associatedPins[1].direction   = "INPUT";
+GPIO1.associatedPins[1].assignedPin = "22";
+GPIO1.associatedPins[2].$name       = "KEYPAD_ROW2";
+GPIO1.associatedPins[2].direction   = "INPUT";
+GPIO1.associatedPins[2].assignedPin = "23";
+GPIO1.associatedPins[3].$name       = "KEYPAD_ROW3";
+GPIO1.associatedPins[3].direction   = "INPUT";
+GPIO1.associatedPins[3].assignedPin = "24";
+GPIO1.associatedPins[4].$name       = "KEYPAD_COL0";
+GPIO1.associatedPins[4].assignedPin = "25";
+GPIO1.associatedPins[5].$name       = "KEYPAD_COL1";
+GPIO1.associatedPins[5].assignedPin = "26";
+GPIO1.associatedPins[6].$name       = "KEYPAD_COL2";
+GPIO1.associatedPins[6].assignedPin = "27";
+
+const Board = scripting.addModule("/ti/driverlib/Board", {}, false);
+
+SYSCTL.forceDefaultClkConfig = true;
+SYSCTL.clockTreeEn           = true;
+
+/**
+ * Pinmux solution for unlocked pins/peripherals. This ensures that minor changes to the automatic solver in a future
+ * version of the tool will not impact the pinmux you originally saw.  These lines can be completely deleted in order to
+ * re-solve from scratch.
+ */
+GPIO1.associatedPins[0].pin.$suggestSolution = "PB21";
+GPIO1.associatedPins[1].pin.$suggestSolution = "PB22";
+GPIO1.associatedPins[2].pin.$suggestSolution = "PB23";
+GPIO1.associatedPins[3].pin.$suggestSolution = "PB24";
+GPIO1.associatedPins[4].pin.$suggestSolution = "PB25";
+GPIO1.associatedPins[5].pin.$suggestSolution = "PB26";
+GPIO1.associatedPins[6].pin.$suggestSolution = "PB27";
+Board.peripheral.$suggestSolution            = "DEBUGSS";
+Board.peripheral.swclkPin.$suggestSolution   = "PA20";
+Board.peripheral.swdioPin.$suggestSolution   = "PA19";
