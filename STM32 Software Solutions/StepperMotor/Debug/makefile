@@ -60,8 +60,8 @@ all: main-build
 main-build: MotorDriver.elf secondary-outputs
 
 # Tool invocations
-MotorDriver.elf MotorDriver.map: $(OBJS) $(USER_OBJS) C:\Users\conno\STM32CubeIDE\workspace_1.16.0\StepperMotor\STM32G071RBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "MotorDriver.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"C:\Users\conno\STM32CubeIDE\workspace_1.16.0\StepperMotor\STM32G071RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MotorDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+MotorDriver.elf MotorDriver.map: $(OBJS) $(USER_OBJS) C:\Users\conno\GitRepos\Pedagogical-PCB\STM32\ Software\ Solutions\StepperMotor\STM32G071RBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "MotorDriver.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"C:\Users\conno\GitRepos\Pedagogical-PCB\STM32 Software Solutions\StepperMotor\STM32G071RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MotorDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

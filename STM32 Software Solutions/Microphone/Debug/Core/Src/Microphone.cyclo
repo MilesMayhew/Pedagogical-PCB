@@ -1,0 +1,3 @@
+../Core/Src/Microphone.c:3:6:Microphone_Init	1
+../Core/Src/Microphone.c:9:6:Microphone_Start	1
+../Core/Src/Microphone.c:15:6:Microphone_Transmit	1
