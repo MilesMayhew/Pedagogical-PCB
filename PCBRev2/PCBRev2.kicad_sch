@@ -6006,6 +6006,128 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
 				(offset 1.016)
@@ -15611,131 +15733,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -17162,6 +17159,16 @@
 	)
 	(wire
 		(pts
+			(xy 514.35 21.59) (xy 516.89 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bab038f-fe71-42d3-8769-de2fe45e7e1f")
+	)
+	(wire
+		(pts
 			(xy 214.63 73.66) (xy 214.63 78.74)
 		)
 		(stroke
@@ -17682,16 +17689,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 203.2) (xy 26.67 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66083470-25ed-42f4-905c-041e7564ac77")
-	)
-	(wire
-		(pts
 			(xy 232.41 186.69) (xy 245.11 186.69)
 		)
 		(stroke
@@ -18142,6 +18139,16 @@
 	)
 	(wire
 		(pts
+			(xy 491.49 21.59) (xy 488.95 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ff3ba8-d0ed-44d2-9887-5174a2203555")
+	)
+	(wire
+		(pts
 			(xy 528.32 307.34) (xy 532.13 307.34)
 		)
 		(stroke
@@ -18369,6 +18376,16 @@
 			(type default)
 		)
 		(uuid "a46d29c3-6d50-40cc-9101-fc14534e1c5f")
+	)
+	(wire
+		(pts
+			(xy 491.49 24.13) (xy 491.49 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47b4883-798c-4861-add2-24fef3f7a187")
 	)
 	(wire
 		(pts
@@ -18772,6 +18789,16 @@
 	)
 	(wire
 		(pts
+			(xy 502.92 21.59) (xy 500.38 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6bbf281-07c7-4fce-bd5f-1fe247ab15f9")
+	)
+	(wire
+		(pts
 			(xy 466.09 187.96) (xy 466.09 185.42)
 		)
 		(stroke
@@ -19099,6 +19126,16 @@
 			(type default)
 		)
 		(uuid "dc673503-8e65-49c3-b00d-e49f586a9fd8")
+	)
+	(wire
+		(pts
+			(xy 502.92 24.13) (xy 502.92 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd4fc07b-c5f4-4dce-9071-b5a6f9fbb173")
 	)
 	(wire
 		(pts
@@ -21140,7 +21177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CRGCQ1206F68R.step:RESC3115X65N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 45.212 234.95 90)
 			(effects
 				(font
@@ -21272,7 +21309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0603FR_0710KL.step:RESC1607X60N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 194.31 57.912 90)
 			(effects
 				(font
@@ -21674,7 +21711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CRGCQ0603F2K2.step:RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 464.312 212.09 90)
 			(effects
 				(font
@@ -21931,7 +21968,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kR"
+		(property "Value" "300"
 			(at 529.59 67.818 90)
 			(effects
 				(font
@@ -21940,7 +21977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RNCP1206FTD1K00.step:RESC3216X90N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 527.05 71.628 90)
 			(effects
 				(font
@@ -22114,6 +22151,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 483.87 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e2f4d90-3c48-400e-a614-5d4484f02488")
+		(property "Reference" "J8"
+			(at 484.505 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V"
+			(at 484.505 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 483.87 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 483.87 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 483.87 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe938da6-d656-421d-ad70-87b3af0faead")
+		)
+		(instances
+			(project ""
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 181.61 287.02 0)
 		(unit 1)
@@ -22259,7 +22361,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kR"
+		(property "Value" "300"
 			(at 529.59 60.198 90)
 			(effects
 				(font
@@ -22268,7 +22370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RNCP1206FTD1K00.step:RESC3216X90N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 527.05 64.008 90)
 			(effects
 				(font
@@ -23036,72 +23138,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 20.32 203.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30acbe57-e368-4ede-a1fe-56b2758ae3dd")
-		(property "Reference" "#PWR02"
-			(at 20.32 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 20.32 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 20.32 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4267aa7-998a-4e13-a436-e5db8841b66f")
-		)
-		(instances
-			(project ""
-				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 187.96 331.47 0)
 		(unit 1)
@@ -23390,7 +23426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0603FR_0710KL.step:RESC1607X60N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 392.43 271.018 90)
 			(effects
 				(font
@@ -23832,7 +23868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CRGCQ0603F2K2.step:RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 440.182 191.77 90)
 			(effects
 				(font
@@ -23900,7 +23936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC1206JR_07620RL.step:RESC3116X65N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 340.36 213.868 90)
 			(effects
 				(font
@@ -24677,7 +24713,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC0603FR_0710KL.step:RESC1607X60N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 180.848 31.75 90)
 			(effects
 				(font
@@ -25059,7 +25095,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74AHC14N"
+		(property "Value" "SN74AHCT14QDRG4Q1"
 			(at 238.76 27.94 0)
 			(effects
 				(font
@@ -25254,7 +25290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RMCF0805JT510R510.step:RESC2012X65N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 23.622 234.95 90)
 			(effects
 				(font
@@ -25297,6 +25333,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 516.89 21.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45d3e8fb-8b0a-4b3f-bf41-22ade343b343")
+		(property "Reference" "#PWR02"
+			(at 513.08 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 520.7 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 516.89 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 516.89 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 516.89 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30f5e5ca-3f02-44b8-ba35-8ec5691f377b")
+		)
+		(instances
+			(project "PCBRev2"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 199.39 64.77 0)
 		(unit 1)
@@ -25324,7 +25427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GRM033R60J474KE90D.step:CAPC0603X33N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 200.3552 68.58 0)
 			(effects
 				(font
@@ -25367,6 +25470,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 495.3 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47f2e63d-1e6c-40f6-8e02-4a11700648c2")
+		(property "Reference" "J9"
+			(at 495.935 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 495.935 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 495.3 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 495.3 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 495.3 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d638b90-58a8-4821-810c-b3878743292c")
+		)
+		(instances
+			(project "PCBRev2"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 441.96 212.09 0)
 		(unit 1)
@@ -25394,7 +25562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CRGCQ0603F2K2.step:RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 440.182 212.09 90)
 			(effects
 				(font
@@ -25464,7 +25632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CRGCQ1206F68R.step:RESC3115X65N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 61.722 234.95 90)
 			(effects
 				(font
@@ -26207,7 +26375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CRGCQ0603F2K2.step:RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 464.312 191.77 90)
 			(effects
 				(font
@@ -26277,7 +26445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GRM033R60J474KE90D.step:CAPC0603X33N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 204.1652 34.29 0)
 			(effects
 				(font
@@ -26755,6 +26923,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 491.49 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "778d2113-558e-43c9-b322-b138c91f0338")
+		(property "Reference" "#PWR041"
+			(at 491.49 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 491.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 491.49 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 491.49 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 491.49 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41a754d6-f919-41e4-b88a-692f0df0bd2f")
+		)
+		(instances
+			(project "PCBRev2"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 83.82 25.4 0)
 		(unit 1)
@@ -26782,7 +27016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GRM155R71C224KA12D022uf.step:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 83.82 25.4 0)
 			(effects
 				(font
@@ -26977,6 +27211,72 @@
 			(project "PCBRev2"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 502.92 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82e6cf2b-3384-42f5-bbce-23fbf6637a05")
+		(property "Reference" "#PWR040"
+			(at 502.92 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 502.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 502.92 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 502.92 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 502.92 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff110503-bd59-4d7a-89ba-fb038513a012")
+		)
+		(instances
+			(project "PCBRev2"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -27409,7 +27709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A105KP3NSNC1uf.step:CAPC0603X35N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 106.68 50.8 0)
 			(effects
 				(font
@@ -28554,7 +28854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CRGP2512F68K.step:RESC6332X65N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 545.592 209.55 90)
 			(effects
 				(font
@@ -28816,7 +29116,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC0603FR_0710KL.step:RESC1607X60N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 216.408 64.77 90)
 			(effects
 				(font
@@ -28883,7 +29183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0603FR_0710KL.step:RESC1607X60N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 228.6 71.882 90)
 			(effects
 				(font
@@ -29284,6 +29584,71 @@
 			(project "CapstonePCB"
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 509.27 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b41e5c72-28b6-4429-a955-91595741f80b")
+		(property "Reference" "J10"
+			(at 509.905 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 509.905 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 509.27 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 509.27 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 509.27 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93f90728-f9e3-42a7-9228-d217536114ed")
+		)
+		(instances
+			(project "PCBRev2"
+				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -30743,7 +31108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CRCW1210330RFKEAHP.step:RESC3225X70N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 79.502 234.95 90)
 			(effects
 				(font
@@ -31242,7 +31607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GRM32EC81C476KE15L.step:CAPC3225X270N"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 52.07 22.86 0)
 			(effects
 				(font
@@ -31708,7 +32073,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC0603FR_0710KL.step:RESC1607X60N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 182.118 50.8 90)
 			(effects
 				(font
@@ -31778,7 +32143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C01UF.step:CAPC1608X90"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 39.37 22.86 0)
 			(effects
 				(font
@@ -31848,7 +32213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GRM033R60J474KE90D.step:CAPC0603X33N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 234.6452 82.55 0)
 			(effects
 				(font
@@ -31908,7 +32273,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kR"
+		(property "Value" "750"
 			(at 530.86 75.438 90)
 			(effects
 				(font
@@ -31917,7 +32282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RNCP1206FTD1K00.step:RESC3216X90N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 528.32 79.248 90)
 			(effects
 				(font
@@ -32055,7 +32420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CL03A105KP3NSNC1uf.step:CAPC0603X35N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 454.66 203.2 0)
 			(effects
 				(font
@@ -32122,7 +32487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0603FR_0710KL.step:RESC1607X60N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 193.04 36.322 90)
 			(effects
 				(font
