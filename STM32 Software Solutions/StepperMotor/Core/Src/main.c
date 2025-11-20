@@ -95,7 +95,7 @@ int main(void)
   MotorDriver_Init(&motorDriver, &htim3, TIM_CHANNEL_1, GPIOA, GPIO_PIN_5, GPIOD, GPIO_PIN_6);
 
   // Set PWM duty cycle
-  MotorDriver_SetPWMDutyCycle(&motorDriver, 50);
+  MotorDriver_SetPWMDutyCycle(&motorDriver, 75);
   MotorDriver_SetDirection(&motorDriver, MOTOR_FORWARD);
 
   // Set direction to use pin1 (1 for true) or pin2 (0 for false)
