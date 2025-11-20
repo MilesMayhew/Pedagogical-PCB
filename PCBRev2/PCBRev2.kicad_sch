@@ -23523,7 +23523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x30_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x32_P2.54mm_Vertical"
 			(at 303.53 76.2 0)
 			(effects
 				(font
@@ -23892,7 +23892,7 @@
 				)
 			)
 		)
-		(property "Value" "1kR"
+		(property "Value" "620"
 			(at 340.36 208.28 90)
 			(effects
 				(font
@@ -23900,7 +23900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
+		(property "Footprint" "RC1206JR_07620RL.step:RESC3116X65N"
 			(at 340.36 213.868 90)
 			(effects
 				(font
@@ -26458,7 +26458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76960167-1f15-4676-8ef5-c7fb47f531af")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 449.58 73.6599 0)
 			(effects
 				(font
@@ -26748,7 +26748,7 @@
 		(instances
 			(project ""
 				(path "/39e7582f-7765-4fc9-b934-76d5b28d9065"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
