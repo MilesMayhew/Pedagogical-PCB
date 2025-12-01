@@ -1,0 +1,51 @@
+/**
+ * These arguments were used when this file was generated. They will be automatically applied on subsequent loads
+ * via the GUI or CLI. Run CLI with '--help' for additional information on how to override these arguments.
+ * @cliArgs --device "MSPM0G350X" --part "Default" --package "LQFP-64(PM)" --product "mspm0_sdk@2.08.00.02"
+ * @v2CliArgs --device "MSPM0G3507" --package "LQFP-64(PM)" --product "mspm0_sdk@2.08.00.02"
+ * @versions {"tool":"1.25.0+4268"}
+ */
+
+/**
+ * Import the modules used in this configuration.
+ */
+const ADC12  = scripting.addModule("/ti/driverlib/ADC12", {}, false);
+const ADC121 = ADC12.addInstance();
+const SYSCTL = scripting.addModule("/ti/driverlib/SYSCTL");
+const TIMER  = scripting.addModule("/ti/driverlib/TIMER", {}, false);
+const TIMER1 = TIMER.addInstance();
+const UART   = scripting.addModule("/ti/driverlib/UART", {}, false);
+const UART1  = UART.addInstance();
+
+/**
+ * Write custom configuration values to the imported modules.
+ */
+ADC121.$name               = "ADC12_0";
+ADC121.adcPin0Config.$name = "ti_driverlib_gpio_GPIOPinGeneric0";
+
+const Board = scripting.addModule("/ti/driverlib/Board", {}, false);
+
+SYSCTL.forceDefaultClkConfig = true;
+
+TIMER1.$name     = "TIMER_0";
+TIMER1.timerMode = "PERIODIC_UP";
+
+UART1.$name                    = "UART_0";
+UART1.peripheral.rxPin.$assign = "PB16";
+UART1.peripheral.txPin.$assign = "PB15";
+UART1.txPinConfig.$name        = "ti_driverlib_gpio_GPIOPinGeneric1";
+UART1.rxPinConfig.$name        = "ti_driverlib_gpio_GPIOPinGeneric2";
+
+/**
+ * Pinmux solution for unlocked pins/peripherals. This ensures that minor changes to the automatic solver in a future
+ * version of the tool will not impact the pinmux you originally saw.  These lines can be completely deleted in order to
+ * re-solve from scratch.
+ */
+ADC121.peripheral.$suggestSolution         = "ADC1";
+ADC121.peripheral.adcPin0.$suggestSolution = "PA15";
+Board.peripheral.$suggestSolution          = "DEBUGSS";
+Board.peripheral.swclkPin.$suggestSolution = "PA20";
+Board.peripheral.swdioPin.$suggestSolution = "PA19";
+SYSCTL.peripheral.$suggestSolution         = "SYSCTL";
+TIMER1.peripheral.$suggestSolution         = "TIMA0";
+UART1.peripheral.$suggestSolution          = "UART2";
