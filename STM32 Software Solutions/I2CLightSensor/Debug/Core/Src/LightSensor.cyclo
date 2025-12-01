@@ -1,0 +1,5 @@
+../Core/Src/LightSensor.c:6:26:BH1750_WriteCmd	1
+../Core/Src/LightSensor.c:14:19:BH1750_Init	4
+../Core/Src/LightSensor.c:37:19:BH1750_SetMode	1
+../Core/Src/LightSensor.c:46:19:BH1750_SetMTreg	5
+../Core/Src/LightSensor.c:68:19:BH1750_ReadLux	4
