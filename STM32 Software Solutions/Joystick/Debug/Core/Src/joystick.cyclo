@@ -1,0 +1,6 @@
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h:2339:26:LL_ADC_GetResolution	1
+../Core/Src/joystick.c:14:14:map_to_norm	1
+../Core/Src/joystick.c:20:6:Joystick_Init	5
+../Core/Src/joystick.c:45:6:Joystick_Start	2
+../Core/Src/joystick.c:54:6:Joystick_Process	1
+../Core/Src/joystick.c:64:12:Joystick_Get	1
